@@ -1,0 +1,496 @@
+{
+ "retail memos: final vs start playbook (judge says better)": {
+  "N": 21,
+  "full": {
+   "estimate": -12.380952380952381,
+   "ci": [
+    -22.133846880079865,
+    -2.6280578818248994
+   ],
+   "verdict": "worse"
+  },
+  "judge_mean_diff": 0.6666666666666666,
+  "by_m": {
+   "3": {
+    "classical": {
+     "agrees_with_full": 0.008333333333333333,
+     "false_better": 0.0,
+     "median_width": 99.3735283329184
+    },
+    "ppi": {
+     "agrees_with_full": 0.019,
+     "false_better": 0.0,
+     "median_width": 172.12
+    }
+   },
+   "5": {
+    "classical": {
+     "agrees_with_full": 0.021666666666666667,
+     "false_better": 0.0,
+     "median_width": 52.02843292602208
+    },
+    "ppi": {
+     "agrees_with_full": 0.018,
+     "false_better": 0.0,
+     "median_width": 74.52824575768105
+    }
+   },
+   "8": {
+    "classical": {
+     "agrees_with_full": 0.13233333333333333,
+     "false_better": 0.0,
+     "median_width": 35.7554391466729
+    },
+    "ppi": {
+     "agrees_with_full": 0.062,
+     "false_better": 0.0,
+     "median_width": 46.44201588017757
+    }
+   },
+   "10": {
+    "classical": {
+     "agrees_with_full": 0.193,
+     "false_better": 0.0,
+     "median_width": 30.757285705991677
+    },
+    "ppi": {
+     "agrees_with_full": 0.125,
+     "false_better": 0.0,
+     "median_width": 38.185714382634416
+    }
+   },
+   "15": {
+    "classical": {
+     "agrees_with_full": 0.6046666666666667,
+     "false_better": 0.0,
+     "median_width": 23.484861993572434
+    },
+    "ppi": {
+     "agrees_with_full": 0.4076666666666667,
+     "false_better": 0.0,
+     "median_width": 26.94318378820612
+    }
+   },
+   "20": {
+    "classical": {
+     "agrees_with_full": 1.0,
+     "false_better": 0.0,
+     "median_width": 20.39438880001839
+    },
+    "ppi": {
+     "agrees_with_full": 1.0,
+     "false_better": 0.0,
+     "median_width": 22.354489380327763
+    }
+   }
+  },
+  "judge_truth_corr": 0.2987462800969186
+ },
+ "contracts: judge-picked final vs start (judge says better)": {
+  "N": 15,
+  "full": {
+   "estimate": 0.0,
+   "ci": [
+    -4.186611312949207,
+    4.186611312949207
+   ],
+   "verdict": "not settled"
+  },
+  "judge_mean_diff": 1.0,
+  "by_m": {
+   "3": {
+    "classical": {
+     "agrees_with_full": 0.9803333333333333,
+     "false_better": 0.010666666666666666,
+     "median_width": 28.68666666666667
+    },
+    "ppi": {
+     "agrees_with_full": 0.9803333333333333,
+     "false_better": 0.010666666666666666,
+     "median_width": 54.537010453510824
+    }
+   },
+   "5": {
+    "classical": {
+     "agrees_with_full": 0.9973333333333333,
+     "false_better": 0.001,
+     "median_width": 20.77368181136892
+    },
+    "ppi": {
+     "agrees_with_full": 0.993,
+     "false_better": 0.005666666666666667,
+     "median_width": 26.834266400412872
+    }
+   },
+   "8": {
+    "classical": {
+     "agrees_with_full": 0.9846666666666667,
+     "false_better": 0.008,
+     "median_width": 12.641456742457674
+    },
+    "ppi": {
+     "agrees_with_full": 0.9973333333333333,
+     "false_better": 0.002,
+     "median_width": 16.513107265276513
+    }
+   },
+   "10": {
+    "classical": {
+     "agrees_with_full": 0.9936666666666667,
+     "false_better": 0.0036666666666666666,
+     "median_width": 10.556
+    },
+    "ppi": {
+     "agrees_with_full": 0.9996666666666667,
+     "false_better": 0.0003333333333333333,
+     "median_width": 13.528510313262295
+    }
+   }
+  },
+  "judge_truth_corr": -0.30316953129541624
+ },
+ "sim: judge fooled (true 0, judge +1, uncorrelated)": {
+  "N": 200,
+  "full": {
+   "estimate": 0.2289470948991088,
+   "ci": [
+    -1.7864758899981452,
+    2.244370079796363
+   ],
+   "verdict": "not settled"
+  },
+  "judge_mean_diff": 0.9114969001166691,
+  "by_m": {
+   "5": {
+    "classical": {
+     "agrees_with_full": 0.952,
+     "false_better": 0.026,
+     "median_width": 33.03600488834344
+    },
+    "ppi": {
+     "agrees_with_full": 0.9486666666666667,
+     "false_better": 0.019333333333333334,
+     "median_width": 48.18091220724695
+    }
+   },
+   "10": {
+    "classical": {
+     "agrees_with_full": 0.9466666666666667,
+     "false_better": 0.03266666666666666,
+     "median_width": 20.096692643182145
+    },
+    "ppi": {
+     "agrees_with_full": 0.9593333333333334,
+     "false_better": 0.02266666666666667,
+     "median_width": 23.506889661315434
+    }
+   },
+   "20": {
+    "classical": {
+     "agrees_with_full": 0.9593333333333334,
+     "false_better": 0.02666666666666667,
+     "median_width": 13.285449862712838
+    },
+    "ppi": {
+     "agrees_with_full": 0.9713333333333334,
+     "false_better": 0.018666666666666668,
+     "median_width": 14.533397754925069
+    }
+   },
+   "30": {
+    "classical": {
+     "agrees_with_full": 0.9633333333333334,
+     "false_better": 0.024,
+     "median_width": 10.722410324539627
+    },
+    "ppi": {
+     "agrees_with_full": 0.964,
+     "false_better": 0.021333333333333333,
+     "median_width": 11.368384330525904
+    }
+   },
+   "50": {
+    "classical": {
+     "agrees_with_full": 0.9706666666666667,
+     "false_better": 0.020666666666666667,
+     "median_width": 8.182508128421265
+    },
+    "ppi": {
+     "agrees_with_full": 0.9733333333333334,
+     "false_better": 0.017333333333333333,
+     "median_width": 8.491882970392307
+    }
+   },
+   "100": {
+    "classical": {
+     "agrees_with_full": 0.9926666666666667,
+     "false_better": 0.006666666666666667,
+     "median_width": 5.727204275733591
+    },
+    "ppi": {
+     "agrees_with_full": 0.9926666666666667,
+     "false_better": 0.006666666666666667,
+     "median_width": 5.840812545232668
+    }
+   }
+  }
+ },
+ "sim: real 3-pt gain, judge informative (rho .6)": {
+  "N": 200,
+  "full": {
+   "estimate": 3.2289470948991084,
+   "ci": [
+    1.2135241100018543,
+    5.244370079796362
+   ],
+   "verdict": "better"
+  },
+  "judge_mean_diff": 0.9383554038892997,
+  "by_m": {
+   "5": {
+    "classical": {
+     "agrees_with_full": 0.06333333333333334,
+     "false_better": 0.0,
+     "median_width": 33.03600488834344
+    },
+    "ppi": {
+     "agrees_with_full": 0.04466666666666667,
+     "false_better": 0.0,
+     "median_width": 41.3186247070102
+    }
+   },
+   "10": {
+    "classical": {
+     "agrees_with_full": 0.098,
+     "false_better": 0.0,
+     "median_width": 20.096692643182145
+    },
+    "ppi": {
+     "agrees_with_full": 0.07666666666666666,
+     "false_better": 0.0,
+     "median_width": 20.232233730465005
+    }
+   },
+   "20": {
+    "classical": {
+     "agrees_with_full": 0.15333333333333332,
+     "false_better": 0.0,
+     "median_width": 13.285449862712838
+    },
+    "ppi": {
+     "agrees_with_full": 0.15866666666666668,
+     "false_better": 0.0,
+     "median_width": 12.427135665738401
+    }
+   },
+   "30": {
+    "classical": {
+     "agrees_with_full": 0.202,
+     "false_better": 0.0,
+     "median_width": 10.722410324539627
+    },
+    "ppi": {
+     "agrees_with_full": 0.20733333333333334,
+     "false_better": 0.0,
+     "median_width": 9.846000391006962
+    }
+   },
+   "50": {
+    "classical": {
+     "agrees_with_full": 0.33266666666666667,
+     "false_better": 0.0,
+     "median_width": 8.182508128421265
+    },
+    "ppi": {
+     "agrees_with_full": 0.376,
+     "false_better": 0.0,
+     "median_width": 7.491789232338429
+    }
+   },
+   "100": {
+    "classical": {
+     "agrees_with_full": 0.64,
+     "false_better": 0.0,
+     "median_width": 5.727204275733592
+    },
+    "ppi": {
+     "agrees_with_full": 0.7326666666666667,
+     "false_better": 0.0,
+     "median_width": 5.386493405454341
+    }
+   }
+  }
+ },
+ "sim: real 3-pt gain, judge uninformative": {
+  "N": 200,
+  "full": {
+   "estimate": 3.2289470948991084,
+   "ci": [
+    1.2135241100018543,
+    5.244370079796362
+   ],
+   "verdict": "better"
+  },
+  "judge_mean_diff": 0.9114969001166691,
+  "by_m": {
+   "5": {
+    "classical": {
+     "agrees_with_full": 0.06333333333333334,
+     "false_better": 0.0,
+     "median_width": 33.03600488834344
+    },
+    "ppi": {
+     "agrees_with_full": 0.04,
+     "false_better": 0.0,
+     "median_width": 48.18091220724695
+    }
+   },
+   "10": {
+    "classical": {
+     "agrees_with_full": 0.098,
+     "false_better": 0.0,
+     "median_width": 20.096692643182145
+    },
+    "ppi": {
+     "agrees_with_full": 0.07066666666666667,
+     "false_better": 0.0,
+     "median_width": 23.506889661315434
+    }
+   },
+   "20": {
+    "classical": {
+     "agrees_with_full": 0.15333333333333332,
+     "false_better": 0.0,
+     "median_width": 13.285449862712838
+    },
+    "ppi": {
+     "agrees_with_full": 0.13133333333333333,
+     "false_better": 0.0,
+     "median_width": 14.533397754925065
+    }
+   },
+   "30": {
+    "classical": {
+     "agrees_with_full": 0.202,
+     "false_better": 0.0,
+     "median_width": 10.722410324539627
+    },
+    "ppi": {
+     "agrees_with_full": 0.16866666666666666,
+     "false_better": 0.0,
+     "median_width": 11.368384330525904
+    }
+   },
+   "50": {
+    "classical": {
+     "agrees_with_full": 0.33266666666666667,
+     "false_better": 0.0,
+     "median_width": 8.182508128421265
+    },
+    "ppi": {
+     "agrees_with_full": 0.30933333333333335,
+     "false_better": 0.0,
+     "median_width": 8.491882970392307
+    }
+   },
+   "100": {
+    "classical": {
+     "agrees_with_full": 0.64,
+     "false_better": 0.0,
+     "median_width": 5.727204275733592
+    },
+    "ppi": {
+     "agrees_with_full": 0.6153333333333333,
+     "false_better": 0.0,
+     "median_width": 5.840812545232668
+    }
+   }
+  }
+ },
+ "sim: real 3-pt LOSS, judge says better (rho .3)": {
+  "N": 200,
+  "full": {
+   "estimate": -2.7710529051008903,
+   "ci": [
+    -4.786475889998144,
+    -0.7556299202036363
+   ],
+   "verdict": "worse"
+  },
+  "judge_mean_diff": 0.9201523654723535,
+  "by_m": {
+   "5": {
+    "classical": {
+     "agrees_with_full": 0.048,
+     "false_better": 0.007333333333333333,
+     "median_width": 33.03600488834344
+    },
+    "ppi": {
+     "agrees_with_full": 0.042,
+     "false_better": 0.01,
+     "median_width": 48.35323598779828
+    }
+   },
+   "10": {
+    "classical": {
+     "agrees_with_full": 0.064,
+     "false_better": 0.008666666666666666,
+     "median_width": 20.09669264318214
+    },
+    "ppi": {
+     "agrees_with_full": 0.052,
+     "false_better": 0.006666666666666667,
+     "median_width": 23.13684790613581
+    }
+   },
+   "20": {
+    "classical": {
+     "agrees_with_full": 0.11066666666666666,
+     "false_better": 0.002,
+     "median_width": 13.285449862712838
+    },
+    "ppi": {
+     "agrees_with_full": 0.09066666666666667,
+     "false_better": 0.0006666666666666666,
+     "median_width": 14.069131676901799
+    }
+   },
+   "30": {
+    "classical": {
+     "agrees_with_full": 0.138,
+     "false_better": 0.0006666666666666666,
+     "median_width": 10.722410324539627
+    },
+    "ppi": {
+     "agrees_with_full": 0.12866666666666668,
+     "false_better": 0.0006666666666666666,
+     "median_width": 11.06628003130333
+    }
+   },
+   "50": {
+    "classical": {
+     "agrees_with_full": 0.20733333333333334,
+     "false_better": 0.0,
+     "median_width": 8.182508128421265
+    },
+    "ppi": {
+     "agrees_with_full": 0.188,
+     "false_better": 0.0,
+     "median_width": 8.302363028913678
+    }
+   },
+   "100": {
+    "classical": {
+     "agrees_with_full": 0.45866666666666667,
+     "false_better": 0.0,
+     "median_width": 5.727204275733591
+    },
+    "ppi": {
+     "agrees_with_full": 0.4613333333333333,
+     "false_better": 0.0,
+     "median_width": 5.748821075725832
+    }
+   }
+  }
+ }
+}

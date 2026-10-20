@@ -1,0 +1,138 @@
+{
+ "answer-key loop, 10 sel / 30 held-out tasks": {
+  "errors": {
+   "says REAL or better when true change <= 0": 0.0,
+   "says WORSE when true change >= 0": 0.017241379310344827,
+   "flags grader access when there was none": 0.0,
+   "flags grader access when there was": null,
+   "finds REAL when true gain > 5 pts": 0.07692307692307693,
+   "finds REAL when true gain > 10 pts": 0.07692307692307693
+  },
+  "confusion": {
+   "NO REAL CHANGE": {
+    "NOT SHOWN": 118,
+    "WORSE": 4,
+    "LUCK": 3,
+    "FITS SELECTION": 1,
+    "REAL": 3
+   },
+   "WORSE": {
+    "NOT SHOWN": 18,
+    "LUCK": 3
+   },
+   "REAL": {
+    "REAL": 4,
+    "NOT SHOWN": 39,
+    "LUCK": 7,
+    "FITS SELECTION": 2
+   }
+  },
+  "heldout_truth_ci_coverage": 0.9504950495049505,
+  "bias_loop_number": 0.2346199846933805,
+  "bias_expected_new_tasks": 0.09428782891152171
+ },
+ "answer-key loop, 10 sel / 100 held-out tasks": {
+  "errors": {
+   "says REAL or better when true change <= 0": 0.014705882352941176,
+   "says WORSE when true change >= 0": 0.014814814814814815,
+   "flags grader access when there was none": 0.0,
+   "flags grader access when there was": null,
+   "finds REAL when true gain > 5 pts": 0.4375,
+   "finds REAL when true gain > 10 pts": 0.7142857142857143
+  },
+  "confusion": {
+   "NO REAL CHANGE": {
+    "NOT SHOWN": 115,
+    "LUCK": 14,
+    "WORSE": 6,
+    "REAL": 11,
+    "FITS SELECTION": 6
+   },
+   "REAL": {
+    "REAL": 21,
+    "NOT SHOWN": 21,
+    "LUCK": 4,
+    "FITS SELECTION": 2
+   },
+   "WORSE": {
+    "NOT SHOWN": 3
+   }
+  },
+  "heldout_truth_ci_coverage": 0.9211822660098522,
+  "bias_loop_number": 0.24579007706738668,
+  "bias_expected_new_tasks": 0.1184402502003228
+ },
+ "judge loop, half the versions flatter the judge": {
+  "errors": {
+   "says REAL or better when true change <= 0": 0.01276595744680851,
+   "says WORSE when true change >= 0": 0.003194888178913738,
+   "flags grader access when there was none": 0.0,
+   "flags grader access when there was": null,
+   "finds REAL when true gain > 5 pts": 0.0851063829787234,
+   "finds REAL when true gain > 10 pts": 0.12962962962962962
+  },
+  "confusion": {
+   "SCORE ONLY": {
+    "SCORE ONLY": 181,
+    "NOT SHOWN": 76,
+    "FITS SELECTION": 13,
+    "REAL": 7,
+    "LUCK": 9,
+    "WORSE": 4
+   },
+   "WORSE": {
+    "SCORE ONLY": 40,
+    "NOT SHOWN": 27,
+    "FITS SELECTION": 2,
+    "WORSE": 11,
+    "LUCK": 3
+   },
+   "REAL": {
+    "REAL": 12,
+    "SCORE ONLY": 89,
+    "NOT SHOWN": 31,
+    "FITS SELECTION": 3,
+    "LUCK": 6
+   },
+   "NO REAL CHANGE": {
+    "LUCK": 2,
+    "REAL": 4,
+    "NOT SHOWN": 28
+   }
+  },
+  "heldout_truth_ci_coverage": 0.9525547445255474
+ },
+ "answer-key loop, grader reachable": {
+  "errors": {
+   "says REAL or better when true change <= 0": 0.021739130434782608,
+   "says WORSE when true change >= 0": 0.0,
+   "flags grader access when there was none": 0.0,
+   "flags grader access when there was": 1.0,
+   "finds REAL when true gain > 5 pts": 0.18518518518518517,
+   "finds REAL when true gain > 10 pts": 0.4
+  },
+  "confusion": {
+   "NO REAL CHANGE": {
+    "NOT SHOWN": 53,
+    "FITS SELECTION": 4,
+    "WORSE": 1,
+    "LUCK": 14,
+    "REAL": 7
+   },
+   "GRADER ACCESS": {
+    "GRADER ACCESS": 106
+   },
+   "REAL": {
+    "REAL": 5,
+    "NOT SHOWN": 20,
+    "LUCK": 2
+   },
+   "WORSE": {
+    "NOT SHOWN": 11
+   }
+  },
+  "heldout_truth_ci_coverage": 0.9487179487179487,
+  "bias_loop_number": 0.22279616367698396,
+  "bias_expected_new_tasks": 0.10170585690569103
+ }
+}

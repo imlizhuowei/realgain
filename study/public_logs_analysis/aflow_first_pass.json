@@ -1,0 +1,1787 @@
+{
+ "DROP": {
+  "n_questions": 68,
+  "n_rounds": 21,
+  "run_sd_median": 0.011978658940391889,
+  "item_se_median": 0.05019402066311836,
+  "decisions": [
+   {
+    "round": 13,
+    "parent": 2,
+    "accepted": true,
+    "delta": 8.163404592832033e-19,
+    "ci_questions": [
+     -0.01764705882352941,
+     0.017647058823529415
+    ],
+    "z_run_only": 1.6829289700449461e-16,
+    "logged_before": 0.7403921568627451,
+    "logged_after": 0.7403921568627452,
+    "recomputed_parent": 0.7403921568627451,
+    "recomputed_child": 0.7403921568627451
+   },
+   {
+    "round": 16,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.11761437908496732,
+    "ci_questions": [
+     -0.19570751633986924,
+     -0.04345833333333337
+    ],
+    "z_run_only": -18.502449956781795,
+    "logged_before": 0.7404901960784314,
+    "logged_after": 0.6228758169934641,
+    "recomputed_parent": 0.7404901960784314,
+    "recomputed_child": 0.6228758169934641
+   },
+   {
+    "round": 6,
+    "parent": 1,
+    "accepted": true,
+    "delta": 0.45008626040396893,
+    "ci_questions": [
+     0.38700993836633163,
+     0.5091486788745617
+    ],
+    "z_run_only": 94.90605785970638,
+    "logged_before": 0.06093614855961649,
+    "logged_after": 0.5110224089635853,
+    "recomputed_parent": 0.06093614855961648,
+    "recomputed_child": 0.5110224089635854
+   },
+   {
+    "round": 15,
+    "parent": 10,
+    "accepted": false,
+    "delta": -0.10166666666666667,
+    "ci_questions": [
+     -0.18255637254901957,
+     -0.019313725490196082
+    ],
+    "z_run_only": -10.550097598289634,
+    "logged_before": 0.7624509803921568,
+    "logged_after": 0.6607843137254901,
+    "recomputed_parent": 0.7624509803921569,
+    "recomputed_child": 0.6607843137254902
+   },
+   {
+    "round": 7,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.7001083000721621,
+    "ci_questions": [
+     -0.7985043527602204,
+     -0.5999926589691844
+    ],
+    "z_run_only": -147.89377411445136,
+    "logged_before": 0.7404901960784314,
+    "logged_after": 0.040381896006269284,
+    "recomputed_parent": 0.7404901960784314,
+    "recomputed_child": 0.040381896006269284
+   },
+   {
+    "round": 19,
+    "parent": 10,
+    "accepted": false,
+    "delta": -0.17044177464404373,
+    "ci_questions": [
+     -0.2537249614459002,
+     -0.09530612055283955
+    ],
+    "z_run_only": -17.707811378952282,
+    "logged_before": 0.7624509803921568,
+    "logged_after": 0.5920092057481131,
+    "recomputed_parent": 0.7624509803921569,
+    "recomputed_child": 0.5920092057481131
+   },
+   {
+    "round": 5,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.03099366630883181,
+    "ci_questions": [
+     -0.07525382291169526,
+     0.002058823529411763
+    ],
+    "z_run_only": -4.922225371897836,
+    "logged_before": 0.7404901960784314,
+    "logged_after": 0.7094965297695995,
+    "recomputed_parent": 0.7404901960784314,
+    "recomputed_child": 0.7094965297695995
+   },
+   {
+    "round": 10,
+    "parent": 2,
+    "accepted": true,
+    "delta": 0.022058823529411766,
+    "ci_questions": [
+     0.0002941176470588238,
+     0.058830882352941136
+    ],
+    "z_run_only": 2.893187811789225,
+    "logged_before": 0.7403921568627451,
+    "logged_after": 0.7624509803921569,
+    "recomputed_parent": 0.7403921568627451,
+    "recomputed_child": 0.7624509803921569
+   },
+   {
+    "round": 20,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.015784313725490193,
+    "ci_questions": [
+     -0.03509803921568627,
+     -0.0019607843137254897
+    ],
+    "z_run_only": -2.047593836089071,
+    "logged_before": 0.7403921568627451,
+    "logged_after": 0.7246078431372548,
+    "recomputed_parent": 0.7403921568627451,
+    "recomputed_child": 0.7246078431372548
+   },
+   {
+    "round": 18,
+    "parent": 10,
+    "accepted": false,
+    "delta": -0.03941176470588235,
+    "ci_questions": [
+     -0.08235294117647059,
+     -0.005294117647058828
+    ],
+    "z_run_only": -4.501818042578749,
+    "logged_before": 0.7624509803921568,
+    "logged_after": 0.7230392156862744,
+    "recomputed_parent": 0.7624509803921569,
+    "recomputed_child": 0.7230392156862745
+   },
+   {
+    "round": 17,
+    "parent": 10,
+    "accepted": false,
+    "delta": -0.0727450980392157,
+    "ci_questions": [
+     -0.13529411764705884,
+     -0.017647058823529415
+    ],
+    "z_run_only": -8.822087837579414,
+    "logged_before": 0.7624509803921568,
+    "logged_after": 0.6897058823529412,
+    "recomputed_parent": 0.7624509803921569,
+    "recomputed_child": 0.6897058823529412
+   },
+   {
+    "round": 21,
+    "parent": 10,
+    "accepted": false,
+    "delta": -0.6921909547674465,
+    "ci_questions": [
+     -0.7801335197192087,
+     -0.6005996984964431
+    ],
+    "z_run_only": -89.84379381427821,
+    "logged_before": 0.7624509803921568,
+    "logged_after": 0.07026002562471038,
+    "recomputed_parent": 0.7624509803921569,
+    "recomputed_child": 0.0702600256247104
+   },
+   {
+    "round": 8,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.015319693094629157,
+    "ci_questions": [
+     -0.052941176470588235,
+     0.012105711849957372
+    ],
+    "z_run_only": -2.3097543276348005,
+    "logged_before": 0.7404901960784314,
+    "logged_after": 0.7251705029838021,
+    "recomputed_parent": 0.7404901960784314,
+    "recomputed_child": 0.7251705029838023
+   },
+   {
+    "round": 4,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.011470588235294118,
+    "ci_questions": [
+     -0.03529411764705882,
+     0.0061764705882352946
+    ],
+    "z_run_only": -1.6845434298836528,
+    "logged_before": 0.7403921568627451,
+    "logged_after": 0.7289215686274508,
+    "recomputed_parent": 0.7403921568627451,
+    "recomputed_child": 0.7289215686274509
+   },
+   {
+    "round": 14,
+    "parent": 1,
+    "accepted": true,
+    "delta": 0.44339858533394094,
+    "ci_questions": [
+     0.3707681010341225,
+     0.5171172928542074
+    ],
+    "z_run_only": 79.99739595700383,
+    "logged_before": 0.06093614855961649,
+    "logged_after": 0.5043347338935573,
+    "recomputed_parent": 0.06093614855961648,
+    "recomputed_child": 0.5043347338935573
+   },
+   {
+    "round": 2,
+    "parent": 1,
+    "accepted": true,
+    "delta": 0.6794560083031286,
+    "ci_questions": [
+     0.5774816605303871,
+     0.7765906386893746
+    ],
+    "z_run_only": 197.17478794131657,
+    "logged_before": 0.06093614855961649,
+    "logged_after": 0.7403921568627452,
+    "recomputed_parent": 0.06093614855961648,
+    "recomputed_child": 0.7403921568627451
+   },
+   {
+    "round": 12,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.0010784313725490167,
+    "ci_questions": [
+     -0.03196078431372549,
+     0.028735294117647015
+    ],
+    "z_run_only": -0.17418674768537232,
+    "logged_before": 0.7404901960784314,
+    "logged_after": 0.7394117647058824,
+    "recomputed_parent": 0.7404901960784314,
+    "recomputed_child": 0.7394117647058823
+   },
+   {
+    "round": 11,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.4842685865412728,
+    "ci_questions": [
+     -0.5954941241227389,
+     -0.37575615526881284
+    ],
+    "z_run_only": -77.71622589859706,
+    "logged_before": 0.7404901960784314,
+    "logged_after": 0.2562216095371586,
+    "recomputed_parent": 0.7404901960784314,
+    "recomputed_child": 0.2562216095371586
+   },
+   {
+    "round": 9,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.6913710150401089,
+    "ci_questions": [
+     -0.7818615085043643,
+     -0.5910315433621783
+    ],
+    "z_run_only": -177.3617153721747,
+    "logged_before": 0.7403921568627451,
+    "logged_after": 0.049021141822636304,
+    "recomputed_parent": 0.7403921568627451,
+    "recomputed_child": 0.04902114182263631
+   }
+  ],
+  "n_accepted": 5,
+  "accepted_beyond_run_noise": 4,
+  "accepted_beyond_question_noise": 4,
+  "best_round_val": 0.7624509803921569,
+  "median_round_val": 0.6897058823529412,
+  "inflation_question_split": 0.019099413698979984,
+  "inflation_repeat_split": -0.000117221234490793
+ },
+ "GSM8K": {
+  "n_questions": 100,
+  "n_rounds": 24,
+  "run_sd_median": 0.01140175425099139,
+  "item_se_median": 0.03154089542594653,
+  "decisions": [
+   {
+    "round": 13,
+    "parent": 10,
+    "accepted": true,
+    "delta": 0.007999999999999998,
+    "ci_questions": [
+     0.0,
+     0.018
+    ],
+    "z_run_only": 1.4605934866804415,
+    "logged_before": 0.898,
+    "logged_after": 0.906,
+    "recomputed_parent": 0.898,
+    "recomputed_child": 0.906
+   },
+   {
+    "round": 3,
+    "parent": 2,
+    "accepted": true,
+    "delta": 0.046,
+    "ci_questions": [
+     -0.01,
+     0.106
+    ],
+    "z_run_only": 7.273238618387266,
+    "logged_before": 0.826,
+    "logged_after": 0.8720000000000001,
+    "recomputed_parent": 0.826,
+    "recomputed_child": 0.872
+   },
+   {
+    "round": 16,
+    "parent": 13,
+    "accepted": false,
+    "delta": -0.032,
+    "ci_questions": [
+     -0.07800000000000001,
+     0.016000000000000004
+    ],
+    "z_run_only": -3.5338088343950864,
+    "logged_before": 0.906,
+    "logged_after": 0.874,
+    "recomputed_parent": 0.906,
+    "recomputed_child": 0.874
+   },
+   {
+    "round": 23,
+    "parent": 13,
+    "accepted": false,
+    "delta": -0.092,
+    "ci_questions": [
+     -0.15205,
+     -0.036000000000000004
+    ],
+    "z_run_only": -10.842303978193744,
+    "logged_before": 0.906,
+    "logged_after": 0.8140000000000001,
+    "recomputed_parent": 0.906,
+    "recomputed_child": 0.814
+   },
+   {
+    "round": 25,
+    "parent": 13,
+    "accepted": false,
+    "delta": -0.02,
+    "ci_questions": [
+     -0.064,
+     0.024
+    ],
+    "z_run_only": -2.5400025400038078,
+    "logged_before": 0.906,
+    "logged_after": 0.8860000000000001,
+    "recomputed_parent": 0.906,
+    "recomputed_child": 0.886
+   },
+   {
+    "round": 6,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.004,
+    "ci_questions": [
+     -0.042,
+     0.036
+    ],
+    "z_run_only": -0.5773502691896253,
+    "logged_before": 0.8720000000000001,
+    "logged_after": 0.868,
+    "recomputed_parent": 0.872,
+    "recomputed_child": 0.868
+   },
+   {
+    "round": 15,
+    "parent": 13,
+    "accepted": false,
+    "delta": -0.026000000000000002,
+    "ci_questions": [
+     -0.07200000000000001,
+     0.01804999999999973
+    ],
+    "z_run_only": -6.499999999999995,
+    "logged_before": 0.906,
+    "logged_after": 0.8800000000000001,
+    "recomputed_parent": 0.906,
+    "recomputed_child": 0.88
+   },
+   {
+    "round": 7,
+    "parent": 4,
+    "accepted": false,
+    "delta": 1.1102230246251566e-18,
+    "ci_questions": [
+     -0.04,
+     0.04
+    ],
+    "z_run_only": 1.0683126035464235e-16,
+    "logged_before": 0.868,
+    "logged_after": 0.868,
+    "recomputed_parent": 0.868,
+    "recomputed_child": 0.868
+   },
+   {
+    "round": 19,
+    "parent": 8,
+    "accepted": false,
+    "delta": -0.034,
+    "ci_questions": [
+     -0.07,
+     -0.0020000000000000018
+    ],
+    "z_run_only": -5.375872022286241,
+    "logged_before": 0.8880000000000001,
+    "logged_after": 0.8539999999999999,
+    "recomputed_parent": 0.888,
+    "recomputed_child": 0.854
+   },
+   {
+    "round": 5,
+    "parent": 4,
+    "accepted": false,
+    "delta": -0.11,
+    "ci_questions": [
+     -0.18205000000000002,
+     -0.037950000000000275
+    ],
+    "z_run_only": -12.45504737559054,
+    "logged_before": 0.868,
+    "logged_after": 0.758,
+    "recomputed_parent": 0.868,
+    "recomputed_child": 0.758
+   },
+   {
+    "round": 10,
+    "parent": 8,
+    "accepted": true,
+    "delta": 0.01,
+    "ci_questions": [
+     -0.022000000000000002,
+     0.04
+    ],
+    "z_run_only": 1.6222142113076239,
+    "logged_before": 0.8880000000000001,
+    "logged_after": 0.898,
+    "recomputed_parent": 0.888,
+    "recomputed_child": 0.898
+   },
+   {
+    "round": 20,
+    "parent": 13,
+    "accepted": false,
+    "delta": -0.027999999999999997,
+    "ci_questions": [
+     -0.064,
+     0.003999999999999999
+    ],
+    "z_run_only": -2.799999999999997,
+    "logged_before": 0.906,
+    "logged_after": 0.8779999999999999,
+    "recomputed_parent": 0.906,
+    "recomputed_child": 0.878
+   },
+   {
+    "round": 18,
+    "parent": 8,
+    "accepted": false,
+    "delta": -1.1102230246251566e-18,
+    "ci_questions": [
+     -0.026000000000000002,
+     0.024
+    ],
+    "z_run_only": -2.0981243021257862e-16,
+    "logged_before": 0.8880000000000001,
+    "logged_after": 0.8880000000000001,
+    "recomputed_parent": 0.888,
+    "recomputed_child": 0.888
+   },
+   {
+    "round": 17,
+    "parent": 13,
+    "accepted": false,
+    "delta": -0.027999999999999997,
+    "ci_questions": [
+     -0.06805,
+     0.012000000000000002
+    ],
+    "z_run_only": -4.427188724235727,
+    "logged_before": 0.906,
+    "logged_after": 0.8779999999999999,
+    "recomputed_parent": 0.906,
+    "recomputed_child": 0.878
+   },
+   {
+    "round": 22,
+    "parent": 8,
+    "accepted": false,
+    "delta": -0.003999999999999999,
+    "ci_questions": [
+     -0.046049999999999994,
+     0.04204999999999973
+    ],
+    "z_run_only": -0.6324555320336752,
+    "logged_before": 0.8880000000000001,
+    "logged_after": 0.884,
+    "recomputed_parent": 0.888,
+    "recomputed_child": 0.884
+   },
+   {
+    "round": 21,
+    "parent": 13,
+    "accepted": false,
+    "delta": -0.032,
+    "ci_questions": [
+     -0.07600000000000001,
+     0.01
+    ],
+    "z_run_only": -9.237604307034005,
+    "logged_before": 0.906,
+    "logged_after": 0.874,
+    "recomputed_parent": 0.906,
+    "recomputed_child": 0.874
+   },
+   {
+    "round": 8,
+    "parent": 3,
+    "accepted": true,
+    "delta": 0.016,
+    "ci_questions": [
+     -0.02205,
+     0.06
+    ],
+    "z_run_only": 2.309401076758501,
+    "logged_before": 0.8720000000000001,
+    "logged_after": 0.8880000000000001,
+    "recomputed_parent": 0.872,
+    "recomputed_child": 0.888
+   },
+   {
+    "round": 4,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.003999999999999999,
+    "ci_questions": [
+     -0.02,
+     0.012000000000000004
+    ],
+    "z_run_only": -0.4040610178208839,
+    "logged_before": 0.8720000000000001,
+    "logged_after": 0.868,
+    "recomputed_parent": 0.872,
+    "recomputed_child": 0.868
+   },
+   {
+    "round": 14,
+    "parent": 8,
+    "accepted": false,
+    "delta": -0.018,
+    "ci_questions": [
+     -0.048,
+     0.009999999999999998
+    ],
+    "z_run_only": -3.086974532565156,
+    "logged_before": 0.8880000000000001,
+    "logged_after": 0.8699999999999999,
+    "recomputed_parent": 0.888,
+    "recomputed_child": 0.87
+   },
+   {
+    "round": 24,
+    "parent": 8,
+    "accepted": false,
+    "delta": -0.027999999999999997,
+    "ci_questions": [
+     -0.06805,
+     0.009999999999999998
+    ],
+    "z_run_only": -4.221158824088686,
+    "logged_before": 0.8880000000000001,
+    "logged_after": 0.86,
+    "recomputed_parent": 0.888,
+    "recomputed_child": 0.86
+   },
+   {
+    "round": 12,
+    "parent": 8,
+    "accepted": false,
+    "delta": -0.008,
+    "ci_questions": [
+     -0.05,
+     0.036000000000000004
+    ],
+    "z_run_only": -0.9999999999999991,
+    "logged_before": 0.8880000000000001,
+    "logged_after": 0.8800000000000001,
+    "recomputed_parent": 0.888,
+    "recomputed_child": 0.88
+   },
+   {
+    "round": 11,
+    "parent": 8,
+    "accepted": false,
+    "delta": -0.036,
+    "ci_questions": [
+     -0.07800000000000001,
+     1.1102230246251566e-18
+    ],
+    "z_run_only": -5.196152422706628,
+    "logged_before": 0.8880000000000001,
+    "logged_after": 0.852,
+    "recomputed_parent": 0.888,
+    "recomputed_child": 0.852
+   },
+   {
+    "round": 9,
+    "parent": 8,
+    "accepted": false,
+    "delta": -0.008,
+    "ci_questions": [
+     -0.064,
+     0.042049999999999726
+    ],
+    "z_run_only": -1.3719886811400694,
+    "logged_before": 0.8880000000000001,
+    "logged_after": 0.8800000000000001,
+    "recomputed_parent": 0.888,
+    "recomputed_child": 0.88
+   }
+  ],
+  "n_accepted": 4,
+  "accepted_beyond_run_noise": 2,
+  "accepted_beyond_question_noise": 0,
+  "best_round_val": 0.906,
+  "median_round_val": 0.874,
+  "inflation_question_split": 0.04464333333333335,
+  "inflation_repeat_split": 0.0012058333333333344
+ },
+ "HotpotQA": {
+  "n_questions": 68,
+  "n_rounds": 21,
+  "run_sd_median": 0.013373440978497783,
+  "item_se_median": 0.052264929088709715,
+  "decisions": [
+   {
+    "round": 13,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.0049871696930520425,
+    "ci_questions": [
+     -0.02459606325047501,
+     0.012903691896338929
+    ],
+    "z_run_only": -0.7312709845860071,
+    "logged_before": 0.6152391725921137,
+    "logged_after": 0.6102520028990617,
+    "recomputed_parent": 0.6152391725921137,
+    "recomputed_child": 0.6102520028990617
+   },
+   {
+    "round": 3,
+    "parent": 2,
+    "accepted": true,
+    "delta": 0.2297100462468793,
+    "ci_questions": [
+     0.14607359416456686,
+     0.30720856387751627
+    ],
+    "z_run_only": 13.539146425280814,
+    "logged_before": 0.38552912634523456,
+    "logged_after": 0.6152391725921138,
+    "recomputed_parent": 0.38552912634523456,
+    "recomputed_child": 0.6152391725921137
+   },
+   {
+    "round": 16,
+    "parent": 14,
+    "accepted": true,
+    "delta": 0.015132041161452914,
+    "ci_questions": [
+     -0.05200948193962901,
+     0.08008267018928779
+    ],
+    "z_run_only": 3.0603586757540313,
+    "logged_before": 0.617469230116289,
+    "logged_after": 0.6326012712777418,
+    "recomputed_parent": 0.617469230116289,
+    "recomputed_child": 0.6326012712777418
+   },
+   {
+    "round": 6,
+    "parent": 5,
+    "accepted": false,
+    "delta": -0.0006246857717445961,
+    "ci_questions": [
+     -0.04172963229580877,
+     0.035358363042186536
+    ],
+    "z_run_only": -0.08150397221314663,
+    "logged_before": 0.6106678125795773,
+    "logged_after": 0.6100431268078327,
+    "recomputed_parent": 0.6106678125795773,
+    "recomputed_child": 0.6100431268078326
+   },
+   {
+    "round": 15,
+    "parent": 14,
+    "accepted": true,
+    "delta": 0.002651139709963236,
+    "ci_questions": [
+     -0.02433192216280452,
+     0.02940911865911866
+    ],
+    "z_run_only": 0.6195063843927983,
+    "logged_before": 0.617469230116289,
+    "logged_after": 0.6201203698262521,
+    "recomputed_parent": 0.617469230116289,
+    "recomputed_child": 0.6201203698262522
+   },
+   {
+    "round": 7,
+    "parent": 6,
+    "accepted": true,
+    "delta": 0.005558526440879385,
+    "ci_questions": [
+     -0.02618129827688651,
+     0.045828060011883505
+    ],
+    "z_run_only": 0.939640546000055,
+    "logged_before": 0.6100431268078326,
+    "logged_after": 0.6156016532487121,
+    "recomputed_parent": 0.6100431268078326,
+    "recomputed_child": 0.6156016532487121
+   },
+   {
+    "round": 19,
+    "parent": 15,
+    "accepted": false,
+    "delta": -0.02890862405568288,
+    "ci_questions": [
+     -0.063887695229607,
+     0.0012416337747220075
+    ],
+    "z_run_only": -2.7041560552291277,
+    "logged_before": 0.6201203698262521,
+    "logged_after": 0.5912117457705692,
+    "recomputed_parent": 0.6201203698262522,
+    "recomputed_child": 0.5912117457705693
+   },
+   {
+    "round": 5,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.004571360012536481,
+    "ci_questions": [
+     -0.01963283040488923,
+     0.00927140506552271
+    ],
+    "z_run_only": -0.6714132953517145,
+    "logged_before": 0.6152391725921137,
+    "logged_after": 0.6106678125795773,
+    "recomputed_parent": 0.6152391725921137,
+    "recomputed_child": 0.6106678125795773
+   },
+   {
+    "round": 10,
+    "parent": 7,
+    "accepted": true,
+    "delta": 0.006292335115864524,
+    "ci_questions": [
+     -0.032927361853832444,
+     0.05235294117647058
+    ],
+    "z_run_only": 0.8303014621095368,
+    "logged_before": 0.6156016532487121,
+    "logged_after": 0.6218939883645767,
+    "recomputed_parent": 0.6156016532487121,
+    "recomputed_child": 0.6218939883645765
+   },
+   {
+    "round": 20,
+    "parent": 15,
+    "accepted": false,
+    "delta": -0.0014390511449334966,
+    "ci_questions": [
+     -0.020612943429119894,
+     0.015564697557344607
+    ],
+    "z_run_only": -0.19343265752836192,
+    "logged_before": 0.6201203698262521,
+    "logged_after": 0.6186813186813187,
+    "recomputed_parent": 0.6201203698262522,
+    "recomputed_child": 0.6186813186813187
+   },
+   {
+    "round": 18,
+    "parent": 1,
+    "accepted": true,
+    "delta": 0.02708650002969091,
+    "ci_questions": [
+     0.0028124034727244162,
+     0.05496782034930256
+    ],
+    "z_run_only": 11.635307597438082,
+    "logged_before": 0.15788200880149736,
+    "logged_after": 0.18496850883118826,
+    "recomputed_parent": 0.15788200880149733,
+    "recomputed_child": 0.18496850883118826
+   },
+   {
+    "round": 17,
+    "parent": 15,
+    "accepted": false,
+    "delta": -0.010311241046535162,
+    "ci_questions": [
+     -0.03758076196679137,
+     0.024865182203417494
+    ],
+    "z_run_only": -1.201619083531935,
+    "logged_before": 0.6201203698262521,
+    "logged_after": 0.609809128779717,
+    "recomputed_parent": 0.6201203698262522,
+    "recomputed_child": 0.609809128779717
+   },
+   {
+    "round": 21,
+    "parent": 16,
+    "accepted": false,
+    "delta": -0.011708683473389351,
+    "ci_questions": [
+     -0.037004201680672255,
+     0.008251750700280098
+    ],
+    "z_run_only": -2.1864074869966394,
+    "logged_before": 0.6326012712777419,
+    "logged_after": 0.6208925878043525,
+    "recomputed_parent": 0.6326012712777418,
+    "recomputed_child": 0.6208925878043524
+   },
+   {
+    "round": 8,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.014283559577677223,
+    "ci_questions": [
+     -0.05431466817496228,
+     0.015556372549019584
+    ],
+    "z_run_only": -2.254408637817781,
+    "logged_before": 0.6152391725921137,
+    "logged_after": 0.6009556130144366,
+    "recomputed_parent": 0.6152391725921137,
+    "recomputed_child": 0.6009556130144366
+   },
+   {
+    "round": 4,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.021716424027805104,
+    "ci_questions": [
+     -0.08206624644004759,
+     0.03806967787114847
+    ],
+    "z_run_only": -3.064244984709557,
+    "logged_before": 0.6152391725921137,
+    "logged_after": 0.5935227485643086,
+    "recomputed_parent": 0.6152391725921137,
+    "recomputed_child": 0.5935227485643086
+   },
+   {
+    "round": 14,
+    "parent": 10,
+    "accepted": false,
+    "delta": -0.004424758248287656,
+    "ci_questions": [
+     -0.029643652915711746,
+     0.018965244722597665
+    ],
+    "z_run_only": -0.6356624893913457,
+    "logged_before": 0.6218939883645765,
+    "logged_after": 0.617469230116289,
+    "recomputed_parent": 0.6218939883645765,
+    "recomputed_child": 0.617469230116289
+   },
+   {
+    "round": 2,
+    "parent": 1,
+    "accepted": true,
+    "delta": 0.22764711754373723,
+    "ci_questions": [
+     0.15984819315237836,
+     0.30007545941102903
+    ],
+    "z_run_only": 13.577194158625996,
+    "logged_before": 0.15788200880149736,
+    "logged_after": 0.38552912634523456,
+    "recomputed_parent": 0.15788200880149733,
+    "recomputed_child": 0.38552912634523456
+   },
+   {
+    "round": 12,
+    "parent": 7,
+    "accepted": false,
+    "delta": -0.001747158070687484,
+    "ci_questions": [
+     -0.016371453709689007,
+     0.013518639448786507
+    ],
+    "z_run_only": -0.24083198256879487,
+    "logged_before": 0.6156016532487121,
+    "logged_after": 0.6138544951780245,
+    "recomputed_parent": 0.6156016532487121,
+    "recomputed_child": 0.6138544951780246
+   },
+   {
+    "round": 11,
+    "parent": 10,
+    "accepted": false,
+    "delta": -0.016274509803921564,
+    "ci_questions": [
+     -0.04706127450980392,
+     0.007551470588235278
+    ],
+    "z_run_only": -1.2787213610636472,
+    "logged_before": 0.6218939883645765,
+    "logged_after": 0.6056194785606551,
+    "recomputed_parent": 0.6218939883645765,
+    "recomputed_child": 0.605619478560655
+   },
+   {
+    "round": 9,
+    "parent": 5,
+    "accepted": false,
+    "delta": -0.06904150299911546,
+    "ci_questions": [
+     -0.11853908724637532,
+     -0.025581031077246488
+    ],
+    "z_run_only": -7.956614909942544,
+    "logged_before": 0.6106678125795773,
+    "logged_after": 0.5416263095804618,
+    "recomputed_parent": 0.6106678125795773,
+    "recomputed_child": 0.5416263095804619
+   }
+  ],
+  "n_accepted": 7,
+  "accepted_beyond_run_noise": 4,
+  "accepted_beyond_question_noise": 3,
+  "best_round_val": 0.6326012712777418,
+  "median_round_val": 0.6102520028990617,
+  "inflation_question_split": 0.054861328171546,
+  "inflation_repeat_split": -3.334670144533215e-05
+ },
+ "HumanEval": {
+  "n_questions": 30,
+  "n_rounds": 21,
+  "run_sd_median": 0.02357022603955158,
+  "item_se_median": 0.0475612128263908,
+  "decisions": [
+   {
+    "round": 13,
+    "parent": 11,
+    "accepted": false,
+    "delta": -0.03333333333333333,
+    "ci_questions": [
+     -0.11333333333333334,
+     0.02666666666666667
+    ],
+    "z_run_only": -2.8867513459481295,
+    "logged_before": 0.9199999999999999,
+    "logged_after": 0.8866666666666667,
+    "recomputed_parent": 0.92,
+    "recomputed_child": 0.8866666666666667
+   },
+   {
+    "round": 3,
+    "parent": 1,
+    "accepted": false,
+    "delta": -0.28,
+    "ci_questions": [
+     -0.4333333333333334,
+     -0.13333333333333333
+    ],
+    "z_run_only": -9.05795294908883,
+    "logged_before": 0.9333333333333333,
+    "logged_after": 0.6533333333333333,
+    "recomputed_parent": 0.9333333333333333,
+    "recomputed_child": 0.6533333333333333
+   },
+   {
+    "round": 16,
+    "parent": 5,
+    "accepted": true,
+    "delta": 0.013333333333333334,
+    "ci_questions": [
+     0.0,
+     0.03333333333333333
+    ],
+    "z_run_only": 0.8944271909999161,
+    "logged_before": 0.9400000000000001,
+    "logged_after": 0.9533333333333334,
+    "recomputed_parent": 0.94,
+    "recomputed_child": 0.9533333333333334
+   },
+   {
+    "round": 6,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.04,
+    "ci_questions": [
+     -0.13999999999999999,
+     0.04
+    ],
+    "z_run_only": -2.0579830217101067,
+    "logged_before": 0.9066666666666666,
+    "logged_after": 0.8666666666666666,
+    "recomputed_parent": 0.9066666666666666,
+    "recomputed_child": 0.8666666666666667
+   },
+   {
+    "round": 15,
+    "parent": 8,
+    "accepted": false,
+    "delta": -0.05333333333333334,
+    "ci_questions": [
+     -0.13333333333333333,
+     0.0
+    ],
+    "z_run_only": -5.6568542494923815,
+    "logged_before": 0.9266666666666667,
+    "logged_after": 0.8733333333333334,
+    "recomputed_parent": 0.9266666666666666,
+    "recomputed_child": 0.8733333333333333
+   },
+   {
+    "round": 7,
+    "parent": 6,
+    "accepted": false,
+    "delta": -0.02666666666666667,
+    "ci_questions": [
+     -0.08666666666666666,
+     0.026666666666666672
+    ],
+    "z_run_only": -0.9299811099505544,
+    "logged_before": 0.8666666666666668,
+    "logged_after": 0.8400000000000001,
+    "recomputed_parent": 0.8666666666666667,
+    "recomputed_child": 0.84
+   },
+   {
+    "round": 19,
+    "parent": 5,
+    "accepted": false,
+    "delta": -0.006666666666666664,
+    "ci_questions": [
+     -0.04666666666666666,
+     0.02666666666666667
+    ],
+    "z_run_only": -0.3429971702850176,
+    "logged_before": 0.9400000000000001,
+    "logged_after": 0.9333333333333333,
+    "recomputed_parent": 0.94,
+    "recomputed_child": 0.9333333333333333
+   },
+   {
+    "round": 5,
+    "parent": 1,
+    "accepted": true,
+    "delta": 0.006666666666666665,
+    "ci_questions": [
+     -0.026666666666666675,
+     0.05999999999999999
+    ],
+    "z_run_only": 0.40824829046386296,
+    "logged_before": 0.9333333333333333,
+    "logged_after": 0.9400000000000001,
+    "recomputed_parent": 0.9333333333333333,
+    "recomputed_child": 0.94
+   },
+   {
+    "round": 10,
+    "parent": 5,
+    "accepted": false,
+    "delta": -0.03333333333333333,
+    "ci_questions": [
+     -0.10666666666666667,
+     0.01333333333333333
+    ],
+    "z_run_only": -1.8898223650461365,
+    "logged_before": 0.9400000000000001,
+    "logged_after": 0.9066666666666666,
+    "recomputed_parent": 0.94,
+    "recomputed_child": 0.9066666666666666
+   },
+   {
+    "round": 20,
+    "parent": 14,
+    "accepted": false,
+    "delta": -0.02,
+    "ci_questions": [
+     -0.11333333333333334,
+     0.06666666666666667
+    ],
+    "z_run_only": -1.3416407864998743,
+    "logged_before": 0.9466666666666667,
+    "logged_after": 0.9266666666666667,
+    "recomputed_parent": 0.9466666666666667,
+    "recomputed_child": 0.9266666666666666
+   },
+   {
+    "round": 18,
+    "parent": 1,
+    "accepted": false,
+    "delta": -0.03333333333333333,
+    "ci_questions": [
+     -0.06666666666666668,
+     -0.006666666666666665
+    ],
+    "z_run_only": -1.825741858350554,
+    "logged_before": 0.9333333333333333,
+    "logged_after": 0.9,
+    "recomputed_parent": 0.9333333333333333,
+    "recomputed_child": 0.9
+   },
+   {
+    "round": 17,
+    "parent": 14,
+    "accepted": false,
+    "delta": -0.01333333333333333,
+    "ci_questions": [
+     -0.04666666666666666,
+     0.01333333333333333
+    ],
+    "z_run_only": -1.0000000000000002,
+    "logged_before": 0.9466666666666667,
+    "logged_after": 0.9333333333333333,
+    "recomputed_parent": 0.9466666666666667,
+    "recomputed_child": 0.9333333333333333
+   },
+   {
+    "round": 21,
+    "parent": 1,
+    "accepted": true,
+    "delta": 0.01333333333333333,
+    "ci_questions": [
+     -0.020000000000000007,
+     0.05999999999999999
+    ],
+    "z_run_only": 1.0000000000000002,
+    "logged_before": 0.9333333333333333,
+    "logged_after": 0.9466666666666667,
+    "recomputed_parent": 0.9333333333333333,
+    "recomputed_child": 0.9466666666666667
+   },
+   {
+    "round": 8,
+    "parent": 2,
+    "accepted": true,
+    "delta": 0.020000000000000004,
+    "ci_questions": [
+     0.0,
+     0.06000000000000001
+    ],
+    "z_run_only": 2.1213203435596433,
+    "logged_before": 0.9066666666666666,
+    "logged_after": 0.9266666666666667,
+    "recomputed_parent": 0.9066666666666666,
+    "recomputed_child": 0.9266666666666666
+   },
+   {
+    "round": 4,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.05333333333333333,
+    "ci_questions": [
+     -0.16,
+     0.05333333333333334
+    ],
+    "z_run_only": -2.2627416997969525,
+    "logged_before": 0.9066666666666666,
+    "logged_after": 0.8533333333333333,
+    "recomputed_parent": 0.9066666666666666,
+    "recomputed_child": 0.8533333333333334
+   },
+   {
+    "round": 14,
+    "parent": 11,
+    "accepted": true,
+    "delta": 0.02666666666666667,
+    "ci_questions": [
+     0.0,
+     0.08000000000000002
+    ],
+    "z_run_only": 1.7056057308448842,
+    "logged_before": 0.9199999999999999,
+    "logged_after": 0.9466666666666667,
+    "recomputed_parent": 0.92,
+    "recomputed_child": 0.9466666666666667
+   },
+   {
+    "round": 2,
+    "parent": 1,
+    "accepted": false,
+    "delta": -0.02666666666666667,
+    "ci_questions": [
+     -0.08000000000000002,
+     0.01333333333333333
+    ],
+    "z_run_only": -2.138089935299396,
+    "logged_before": 0.9333333333333333,
+    "logged_after": 0.9066666666666666,
+    "recomputed_parent": 0.9333333333333333,
+    "recomputed_child": 0.9066666666666666
+   },
+   {
+    "round": 12,
+    "parent": 5,
+    "accepted": false,
+    "delta": -0.05333333333333334,
+    "ci_questions": [
+     -0.13333333333333333,
+     0.013333333333333338
+    ],
+    "z_run_only": -1.5255401427929483,
+    "logged_before": 0.9400000000000001,
+    "logged_after": 0.8866666666666667,
+    "recomputed_parent": 0.94,
+    "recomputed_child": 0.8866666666666667
+   },
+   {
+    "round": 11,
+    "parent": 1,
+    "accepted": false,
+    "delta": -0.013333333333333338,
+    "ci_questions": [
+     -0.1,
+     0.05999999999999999
+    ],
+    "z_run_only": -1.0000000000000007,
+    "logged_before": 0.9333333333333333,
+    "logged_after": 0.9200000000000002,
+    "recomputed_parent": 0.9333333333333333,
+    "recomputed_child": 0.92
+   },
+   {
+    "round": 9,
+    "parent": 8,
+    "accepted": false,
+    "delta": -0.04000000000000001,
+    "ci_questions": [
+     -0.11333333333333334,
+     0.0
+    ],
+    "z_run_only": -3.794733192202057,
+    "logged_before": 0.9266666666666667,
+    "logged_after": 0.8866666666666667,
+    "recomputed_parent": 0.9266666666666666,
+    "recomputed_child": 0.8866666666666667
+   }
+  ],
+  "n_accepted": 5,
+  "accepted_beyond_run_noise": 1,
+  "accepted_beyond_question_noise": 0,
+  "best_round_val": 0.9533333333333334,
+  "median_round_val": 0.9066666666666666,
+  "inflation_question_split": 0.07699809523809525,
+  "inflation_repeat_split": 0.011473015873015864
+ },
+ "MATH": {
+  "n_questions": 119,
+  "n_rounds": 16,
+  "run_sd_median": 0.018118531821765975,
+  "item_se_median": 0.04135035395078303,
+  "decisions": [
+   {
+    "round": 13,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.008403361344537815,
+    "ci_questions": [
+     -0.038655462184873944,
+     0.01848739495798319
+    ],
+    "z_run_only": -0.6772854614785963,
+    "logged_before": 0.5277310924369748,
+    "logged_after": 0.5193277310924369,
+    "recomputed_parent": 0.5277310924369748,
+    "recomputed_child": 0.519327731092437
+   },
+   {
+    "round": 3,
+    "parent": 2,
+    "accepted": true,
+    "delta": 0.003361344537815128,
+    "ci_questions": [
+     -0.052100840336134456,
+     0.06050420168067227
+    ],
+    "z_run_only": 0.24806946917841716,
+    "logged_before": 0.5243697478991597,
+    "logged_after": 0.5277310924369747,
+    "recomputed_parent": 0.5243697478991597,
+    "recomputed_child": 0.5277310924369748
+   },
+   {
+    "round": 16,
+    "parent": 9,
+    "accepted": false,
+    "delta": -0.01680672268907563,
+    "ci_questions": [
+     -0.047058823529411764,
+     0.013445378151260505
+    ],
+    "z_run_only": -0.9877295966495901,
+    "logged_before": 0.5378151260504203,
+    "logged_after": 0.5210084033613446,
+    "recomputed_parent": 0.5378151260504201,
+    "recomputed_child": 0.5210084033613446
+   },
+   {
+    "round": 6,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.05210084033613445,
+    "ci_questions": [
+     -0.10760504201680672,
+     0.001680672268907565
+    ],
+    "z_run_only": -1.9508820041354136,
+    "logged_before": 0.5243697478991597,
+    "logged_after": 0.4722689075630252,
+    "recomputed_parent": 0.5243697478991597,
+    "recomputed_child": 0.4722689075630252
+   },
+   {
+    "round": 15,
+    "parent": 14,
+    "accepted": false,
+    "delta": -0.0067226890756302525,
+    "ci_questions": [
+     -0.028571428571428574,
+     0.013487394957982969
+    ],
+    "z_run_only": -0.7016464154456237,
+    "logged_before": 0.5310924369747899,
+    "logged_after": 0.5243697478991596,
+    "recomputed_parent": 0.5310924369747899,
+    "recomputed_child": 0.5243697478991597
+   },
+   {
+    "round": 7,
+    "parent": 2,
+    "accepted": false,
+    "delta": -4.664802624475447e-19,
+    "ci_questions": [
+     -0.052100840336134456,
+     0.05378151260504202
+    ],
+    "z_run_only": -3.6444856260565314e-17,
+    "logged_before": 0.5243697478991597,
+    "logged_after": 0.5243697478991597,
+    "recomputed_parent": 0.5243697478991597,
+    "recomputed_child": 0.5243697478991597
+   },
+   {
+    "round": 19,
+    "parent": 5,
+    "accepted": false,
+    "delta": -0.006722689075630251,
+    "ci_questions": [
+     -0.03697478991596638,
+     0.021848739495798325
+    ],
+    "z_run_only": -0.5163977794943221,
+    "logged_before": 0.5512605042016807,
+    "logged_after": 0.5445378151260505,
+    "recomputed_parent": 0.5512605042016807,
+    "recomputed_child": 0.5445378151260504
+   },
+   {
+    "round": 5,
+    "parent": 3,
+    "accepted": true,
+    "delta": 0.023529411764705882,
+    "ci_questions": [
+     -0.018487394957983194,
+     0.06722689075630252
+    ],
+    "z_run_only": 1.4556506857481017,
+    "logged_before": 0.5277310924369748,
+    "logged_after": 0.5512605042016807,
+    "recomputed_parent": 0.5277310924369748,
+    "recomputed_child": 0.5512605042016807
+   },
+   {
+    "round": 10,
+    "parent": 3,
+    "accepted": false,
+    "delta": -0.023529411764705882,
+    "ci_questions": [
+     -0.05546218487394957,
+     0.0067226890756302525
+    ],
+    "z_run_only": -0.7875615306482168,
+    "logged_before": 0.5277310924369748,
+    "logged_after": 0.5042016806722688,
+    "recomputed_parent": 0.5277310924369748,
+    "recomputed_child": 0.5042016806722689
+   },
+   {
+    "round": 20,
+    "parent": 9,
+    "accepted": false,
+    "delta": -0.01680672268907563,
+    "ci_questions": [
+     -0.058823529411764705,
+     0.026890756302521013
+    ],
+    "z_run_only": -1.5339299776947422,
+    "logged_before": 0.5378151260504203,
+    "logged_after": 0.5210084033613446,
+    "recomputed_parent": 0.5378151260504201,
+    "recomputed_child": 0.5210084033613446
+   },
+   {
+    "round": 18,
+    "parent": 14,
+    "accepted": false,
+    "delta": -0.013445378151260505,
+    "ci_questions": [
+     -0.04033613445378151,
+     0.013445378151260505
+    ],
+    "z_run_only": -1.3522468075656275,
+    "logged_before": 0.5310924369747899,
+    "logged_after": 0.5176470588235293,
+    "recomputed_parent": 0.5310924369747899,
+    "recomputed_child": 0.5176470588235295
+   },
+   {
+    "round": 14,
+    "parent": 3,
+    "accepted": true,
+    "delta": 0.0033613445378151215,
+    "ci_questions": [
+     -0.025210084033613443,
+     0.031932773109243695
+    ],
+    "z_run_only": 0.2649064714130085,
+    "logged_before": 0.5277310924369748,
+    "logged_after": 0.5310924369747899,
+    "recomputed_parent": 0.5277310924369748,
+    "recomputed_child": 0.5310924369747899
+   },
+   {
+    "round": 11,
+    "parent": 9,
+    "accepted": false,
+    "delta": -0.021848739495798325,
+    "ci_questions": [
+     -0.05378151260504201,
+     0.008403361344537813
+    ],
+    "z_run_only": -1.729494273618124,
+    "logged_before": 0.5378151260504203,
+    "logged_after": 0.5159663865546219,
+    "recomputed_parent": 0.5378151260504201,
+    "recomputed_child": 0.5159663865546219
+   },
+   {
+    "round": 9,
+    "parent": 3,
+    "accepted": true,
+    "delta": 0.010084033613445375,
+    "ci_questions": [
+     -0.01680672268907563,
+     0.03697478991596638
+    ],
+    "z_run_only": 0.7529469661657904,
+    "logged_before": 0.5277310924369748,
+    "logged_after": 0.5378151260504201,
+    "recomputed_parent": 0.5277310924369748,
+    "recomputed_child": 0.5378151260504201
+   }
+  ],
+  "n_accepted": 4,
+  "accepted_beyond_run_noise": 0,
+  "accepted_beyond_question_noise": 0,
+  "best_round_val": 0.5512605042016807,
+  "median_round_val": 0.5226890756302521,
+  "inflation_question_split": 0.03528833333333333,
+  "inflation_repeat_split": 0.00930147058823529
+ },
+ "MBPP": {
+  "n_questions": 86,
+  "n_rounds": 18,
+  "run_sd_median": 0.015380705043839541,
+  "item_se_median": 0.04134716382022084,
+  "decisions": [
+   {
+    "round": 13,
+    "parent": 5,
+    "accepted": false,
+    "delta": -0.009302325581395349,
+    "ci_questions": [
+     -0.046511627906976744,
+     0.025581395348837212
+    ],
+    "z_run_only": -1.131370849898474,
+    "logged_before": 0.8209302325581396,
+    "logged_after": 0.8116279069767443,
+    "recomputed_parent": 0.8209302325581396,
+    "recomputed_child": 0.8116279069767441
+   },
+   {
+    "round": 3,
+    "parent": 1,
+    "accepted": false,
+    "delta": -0.004651162790697672,
+    "ci_questions": [
+     -0.07441860465116279,
+     0.06052325581395318
+    ],
+    "z_run_only": -0.8944271909999137,
+    "logged_before": 0.727906976744186,
+    "logged_after": 0.7232558139534884,
+    "recomputed_parent": 0.727906976744186,
+    "recomputed_child": 0.7232558139534884
+   },
+   {
+    "round": 16,
+    "parent": 14,
+    "accepted": false,
+    "delta": -0.046511627906976744,
+    "ci_questions": [
+     -0.10232558139534885,
+     0.0
+    ],
+    "z_run_only": -4.417261042993866,
+    "logged_before": 0.8325581395348838,
+    "logged_after": 0.786046511627907,
+    "recomputed_parent": 0.8325581395348837,
+    "recomputed_child": 0.786046511627907
+   },
+   {
+    "round": 6,
+    "parent": 5,
+    "accepted": false,
+    "delta": -0.06744186046511627,
+    "ci_questions": [
+     -0.1163372093023256,
+     -0.023255813953488372
+    ],
+    "z_run_only": -5.799999999999989,
+    "logged_before": 0.8209302325581396,
+    "logged_after": 0.7534883720930232,
+    "recomputed_parent": 0.8209302325581396,
+    "recomputed_child": 0.7534883720930232
+   },
+   {
+    "round": 15,
+    "parent": 10,
+    "accepted": true,
+    "delta": 0.011627906976744186,
+    "ci_questions": [
+     -0.013953488372093023,
+     0.03953488372093023
+    ],
+    "z_run_only": 1.5430334996209212,
+    "logged_before": 0.8302325581395349,
+    "logged_after": 0.841860465116279,
+    "recomputed_parent": 0.8302325581395349,
+    "recomputed_child": 0.8418604651162791
+   },
+   {
+    "round": 7,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.2697674418604651,
+    "ci_questions": [
+     -0.36046511627906974,
+     -0.18372093023255817
+    ],
+    "z_run_only": -36.68242085795318,
+    "logged_before": 0.8348837209302327,
+    "logged_after": 0.5651162790697675,
+    "recomputed_parent": 0.8348837209302326,
+    "recomputed_child": 0.5651162790697675
+   },
+   {
+    "round": 19,
+    "parent": 14,
+    "accepted": false,
+    "delta": -0.23953488372093024,
+    "ci_questions": [
+     -0.3209883720930233,
+     -0.16046511627906976
+    ],
+    "z_run_only": -16.493199841923982,
+    "logged_before": 0.8325581395348838,
+    "logged_after": 0.5930232558139534,
+    "recomputed_parent": 0.8325581395348837,
+    "recomputed_child": 0.5930232558139535
+   },
+   {
+    "round": 5,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.013953488372093023,
+    "ci_questions": [
+     -0.037209302325581395,
+     0.004651162790697676
+    ],
+    "z_run_only": -1.8973665961010269,
+    "logged_before": 0.8348837209302327,
+    "logged_after": 0.8209302325581396,
+    "recomputed_parent": 0.8348837209302326,
+    "recomputed_child": 0.8209302325581396
+   },
+   {
+    "round": 10,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.004651162790697675,
+    "ci_questions": [
+     -0.025581395348837212,
+     0.013953488372093023
+    ],
+    "z_run_only": -0.5656854249492386,
+    "logged_before": 0.8348837209302327,
+    "logged_after": 0.8302325581395349,
+    "recomputed_parent": 0.8348837209302326,
+    "recomputed_child": 0.8302325581395349
+   },
+   {
+    "round": 18,
+    "parent": 14,
+    "accepted": false,
+    "delta": -0.03953488372093023,
+    "ci_questions": [
+     -0.08139534883720931,
+     -0.00697674418604651
+    ],
+    "z_run_only": -3.5839146815241665,
+    "logged_before": 0.8325581395348838,
+    "logged_after": 0.7930232558139536,
+    "recomputed_parent": 0.8325581395348837,
+    "recomputed_child": 0.7930232558139535
+   },
+   {
+    "round": 17,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.0023255813953488354,
+    "ci_questions": [
+     -0.020930232558139535,
+     0.018604651162790697
+    ],
+    "z_run_only": -0.2581988897471613,
+    "logged_before": 0.8348837209302327,
+    "logged_after": 0.8325581395348836,
+    "recomputed_parent": 0.8348837209302326,
+    "recomputed_child": 0.8325581395348837
+   },
+   {
+    "round": 8,
+    "parent": 5,
+    "accepted": false,
+    "delta": -0.0023255813953488354,
+    "ci_questions": [
+     -0.03953488372093023,
+     0.037209302325581395
+    ],
+    "z_run_only": -0.18898223650461332,
+    "logged_before": 0.8209302325581396,
+    "logged_after": 0.8186046511627907,
+    "recomputed_parent": 0.8209302325581396,
+    "recomputed_child": 0.8186046511627907
+   },
+   {
+    "round": 4,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.2441860465116279,
+    "ci_questions": [
+     -0.32790697674418606,
+     -0.1627325581395352
+    ],
+    "z_run_only": -22.38607521733911,
+    "logged_before": 0.8348837209302327,
+    "logged_after": 0.5906976744186047,
+    "recomputed_parent": 0.8348837209302326,
+    "recomputed_child": 0.5906976744186047
+   },
+   {
+    "round": 14,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.0023255813953488354,
+    "ci_questions": [
+     -0.025581395348837205,
+     0.018604651162790697
+    ],
+    "z_run_only": -0.23904572186687878,
+    "logged_before": 0.8348837209302327,
+    "logged_after": 0.8325581395348838,
+    "recomputed_parent": 0.8348837209302326,
+    "recomputed_child": 0.8325581395348837
+   },
+   {
+    "round": 2,
+    "parent": 1,
+    "accepted": true,
+    "delta": 0.10697674418604651,
+    "ci_questions": [
+     0.04186046511627907,
+     0.18139534883720929
+    ],
+    "z_run_only": 16.796825096825096,
+    "logged_before": 0.727906976744186,
+    "logged_after": 0.8348837209302327,
+    "recomputed_parent": 0.727906976744186,
+    "recomputed_child": 0.8348837209302326
+   },
+   {
+    "round": 12,
+    "parent": 2,
+    "accepted": false,
+    "delta": -0.26046511627906976,
+    "ci_questions": [
+     -0.3511627906976744,
+     -0.1744186046511628
+    ],
+    "z_run_only": -23.611673195923906,
+    "logged_before": 0.8348837209302327,
+    "logged_after": 0.5744186046511628,
+    "recomputed_parent": 0.8348837209302326,
+    "recomputed_child": 0.5744186046511628
+   },
+   {
+    "round": 11,
+    "parent": 10,
+    "accepted": false,
+    "delta": -0.18372093023255814,
+    "ci_questions": [
+     -0.25813953488372093,
+     -0.10691860465116311
+    ],
+    "z_run_only": -14.304647874717933,
+    "logged_before": 0.8302325581395349,
+    "logged_after": 0.6465116279069768,
+    "recomputed_parent": 0.8302325581395349,
+    "recomputed_child": 0.6465116279069767
+   }
+  ],
+  "n_accepted": 2,
+  "accepted_beyond_run_noise": 1,
+  "accepted_beyond_question_noise": 1,
+  "best_round_val": 0.8418604651162791,
+  "median_round_val": 0.7895348837209302,
+  "inflation_question_split": 0.018428940568475456,
+  "inflation_repeat_split": 0.004321059431524557
+ }
+}

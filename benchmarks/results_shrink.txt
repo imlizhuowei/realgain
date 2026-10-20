@@ -1,0 +1,17 @@
+== aflow_half_split
+  HumanEval                                  bias +0.0823 -> +0.0725   mean|err| 0.0890 -> 0.0795  (n=40)
+  MBPP                                       bias +0.0081 -> +0.0056   mean|err| 0.0551 -> 0.0542  (n=40)
+  HotpotQA                                   bias +0.0498 -> +0.0044   mean|err| 0.0784 -> 0.0703  (n=40)
+  DROP                                       bias +0.0361 -> +0.0178   mean|err| 0.0885 -> 0.0879  (n=40)
+== simulated
+  k=12, n_sel=5, tau=0.03                    bias +0.3128 -> +0.0599   mean|err| 0.3464 -> 0.2169  (n=600)
+  k=12, n_sel=10, tau=0.03                   bias +0.2177 -> +0.0296   mean|err| 0.2348 -> 0.1370  (n=600)
+  k=12, n_sel=30, tau=0.03                   bias +0.1344 -> +0.0179   mean|err| 0.1439 -> 0.0785  (n=600)
+  k=12, n_sel=30, tau=0.0                    bias +0.1421 -> +0.0250   mean|err| 0.1491 -> 0.0759  (n=600)
+  k=12, n_sel=30, tau=0.1                    bias +0.0811 -> -0.0085   mean|err| 0.1137 -> 0.0933  (n=600)
+  k=30, n_sel=30, tau=0.03                   bias +0.1631 -> +0.0111   mean|err| 0.1662 -> 0.0815  (n=600)
+  k=4, n_sel=30, tau=0.03                    bias +0.0784 -> +0.0112   mean|err| 0.1080 -> 0.0860  (n=600)
+== our_loops_heldout
+  R1 (judge picks; target = judge score)     bias -0.1556 -> -0.1233   mean|err| 0.2000 -> 0.3366  (n=4)
+  R2 (answer key picks)                      bias +1.0000 -> -3.0772   mean|err| 1.3704 -> 3.0772  (n=3)
+  R3 (answer key visible)                    bias +0.6905 -> -1.4202   mean|err| 0.6905 -> 1.4202  (n=1)

@@ -1,0 +1,1030 @@
+{
+ "n_records": 135,
+ "root": "g0",
+ "versions": {
+  "g1c0": {
+   "parent": "g0",
+   "accepted": false,
+   "generation": 1,
+   "runs": 5,
+   "grader_access_runs": 2,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": -0.03333333333333335,
+    "ci": [
+     -0.1705824466678504,
+     0.1039157800011837
+    ],
+    "p": 0.5371404478061657,
+    "se": 0.04944132324730442,
+    "sd_task_diff": 0.11055415967851334,
+    "up": 1,
+    "down": 2,
+    "same": 2
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": -0.06000000000000001,
+    "ci": [
+     -0.17104000000000003,
+     0.05104
+    ],
+    "p": 0.20799999999999258,
+    "se": 0.04000000000000001,
+    "sd_task_diff": 0.08944271909999162,
+    "up": 0,
+    "down": 2,
+    "same": 3
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": -0.03333333333333335,
+    "ci": [
+     -0.1705824466678504,
+     0.1039157800011837
+    ],
+    "p": 0.5371404478061657,
+    "se": 0.04944132324730442,
+    "sd_task_diff": 0.11055415967851334,
+    "up": 1,
+    "down": 2,
+    "same": 2
+   },
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.13843570509245237,
+   "verdict": "GRADER ACCESS",
+   "why": [
+    "2 run(s) touched the grader",
+    "seen by loop -0.06 [-0.171,+0.051] (n=5)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.06000000000000001,
+    "expected": -0.0441969304707279,
+    "sd": 0.039310481418931835,
+    "weight": 0.3006622516556288
+   }
+  },
+  "g1c1": {
+   "parent": "g0",
+   "accepted": false,
+   "generation": 1,
+   "runs": 5,
+   "grader_access_runs": 1,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": -0.053333333333333344,
+    "ci": [
+     -0.1725541935512965,
+     0.06588752688462982
+    ],
+    "p": 0.28213534548563013,
+    "se": 0.04294699575575042,
+    "sd_task_diff": 0.0960324019392529,
+    "up": 1,
+    "down": 2,
+    "same": 2
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": -0.08,
+    "ci": [
+     -0.1838684090568446,
+     0.023868409056844606
+    ],
+    "p": 0.09930068321372044,
+    "se": 0.03741657386773942,
+    "sd_task_diff": 0.08366600265340757,
+    "up": 0,
+    "down": 3,
+    "same": 2
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": -0.053333333333333344,
+    "ci": [
+     -0.1725541935512965,
+     0.06588752688462982
+    ],
+    "p": 0.28213534548563013,
+    "se": 0.04294699575575042,
+    "sd_task_diff": 0.0960324019392529,
+    "up": 1,
+    "down": 2,
+    "same": 2
+   },
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.12025158811610118,
+   "verdict": "GRADER ACCESS",
+   "why": [
+    "1 run(s) touched the grader",
+    "seen by loop -0.08 [-0.184,+0.0239] (n=5)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.08,
+    "expected": -0.05143700608450597,
+    "sd": 0.03711962774391136,
+    "weight": 0.32946298984034805
+   }
+  },
+  "g2c0": {
+   "parent": "g0",
+   "accepted": false,
+   "generation": 2,
+   "runs": 5,
+   "grader_access_runs": 3,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": -0.03333333333333335,
+    "ci": [
+     -0.15037977046169898,
+     0.08371310379503227
+    ],
+    "p": 0.4734273652571377,
+    "se": 0.0421637021355784,
+    "sd_task_diff": 0.09428090415820636,
+    "up": 1,
+    "down": 1,
+    "same": 3
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": -0.06000000000000001,
+    "ci": [
+     -0.17104000000000003,
+     0.05104
+    ],
+    "p": 0.20799999999999258,
+    "se": 0.04000000000000001,
+    "sd_task_diff": 0.08944271909999162,
+    "up": 0,
+    "down": 2,
+    "same": 3
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": -0.03333333333333335,
+    "ci": [
+     -0.15037977046169898,
+     0.08371310379503227
+    ],
+    "p": 0.4734273652571377,
+    "se": 0.0421637021355784,
+    "sd_task_diff": 0.09428090415820636,
+    "up": 1,
+    "down": 1,
+    "same": 3
+   },
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.11805836597961952,
+   "verdict": "GRADER ACCESS",
+   "why": [
+    "3 run(s) touched the grader",
+    "seen by loop -0.06 [-0.171,+0.051] (n=5)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.06000000000000001,
+    "expected": -0.0441969304707279,
+    "sd": 0.039310481418931835,
+    "weight": 0.3006622516556288
+   }
+  },
+  "g2c1": {
+   "parent": "g0",
+   "accepted": false,
+   "generation": 2,
+   "runs": 5,
+   "grader_access_runs": 2,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": -0.053333333333333344,
+    "ci": [
+     -0.19244143582121065,
+     0.08577476915454396
+    ],
+    "p": 0.3471731076843435,
+    "se": 0.050110987927909696,
+    "sd_task_diff": 0.11205157542647742,
+    "up": 1,
+    "down": 3,
+    "same": 1
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": -0.08,
+    "ci": [
+     -0.1838684090568446,
+     0.023868409056844606
+    ],
+    "p": 0.09930068321372044,
+    "se": 0.03741657386773942,
+    "sd_task_diff": 0.08366600265340757,
+    "up": 0,
+    "down": 3,
+    "same": 2
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": -0.053333333333333344,
+    "ci": [
+     -0.19244143582121065,
+     0.08577476915454396
+    ],
+    "p": 0.3471731076843435,
+    "se": 0.050110987927909696,
+    "sd_task_diff": 0.11205157542647742,
+    "up": 1,
+    "down": 3,
+    "same": 1
+   },
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.14031076619814714,
+   "verdict": "GRADER ACCESS",
+   "why": [
+    "2 run(s) touched the grader",
+    "seen by loop -0.08 [-0.184,+0.0239] (n=5)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.08,
+    "expected": -0.05143700608450597,
+    "sd": 0.03711962774391136,
+    "weight": 0.32946298984034805
+   }
+  },
+  "g3c1": {
+   "parent": "g0",
+   "accepted": false,
+   "generation": 3,
+   "runs": 5,
+   "grader_access_runs": 1,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": 0.006666666666666643,
+    "ci": [
+     -0.14650325437239087,
+     0.15983658770572418
+    ],
+    "p": 0.9096562371156094,
+    "se": 0.05517648452415617,
+    "sd_task_diff": 0.12337837015547834,
+    "up": 3,
+    "down": 1,
+    "same": 1
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": -0.020000000000000018,
+    "ci": [
+     -0.15599567051932206,
+     0.11599567051932202
+    ],
+    "p": 0.7039999999999997,
+    "se": 0.048989794855663564,
+    "sd_task_diff": 0.10954451150103324,
+    "up": 1,
+    "down": 1,
+    "same": 3
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": 0.006666666666666643,
+    "ci": [
+     -0.14650325437239087,
+     0.15983658770572418
+    ],
+    "p": 0.9096562371156094,
+    "se": 0.05517648452415617,
+    "sd_task_diff": 0.12337837015547834,
+    "up": 3,
+    "down": 1,
+    "same": 1
+   },
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.15449415666763727,
+   "verdict": "GRADER ACCESS",
+   "why": [
+    "1 run(s) touched the grader",
+    "seen by loop -0.02 [-0.156,+0.116] (n=5)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.020000000000000018,
+    "expected": -0.03352602920323784,
+    "sd": 0.04690342343502176,
+    "weight": 0.2227674190382726
+   }
+  },
+  "g3c0": {
+   "parent": "g0",
+   "accepted": false,
+   "generation": 3,
+   "runs": 5,
+   "grader_access_runs": 3,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": -0.013333333333333353,
+    "ci": [
+     -0.15244143582121067,
+     0.12577476915454394
+    ],
+    "p": 0.8033326066306479,
+    "se": 0.050110987927909696,
+    "sd_task_diff": 0.11205157542647742,
+    "up": 2,
+    "down": 1,
+    "same": 2
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": -0.040000000000000015,
+    "ci": [
+     -0.15104000000000004,
+     0.07103999999999999
+    ],
+    "p": 0.373900966300059,
+    "se": 0.04000000000000001,
+    "sd_task_diff": 0.08944271909999162,
+    "up": 0,
+    "down": 1,
+    "same": 4
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": -0.013333333333333353,
+    "ci": [
+     -0.15244143582121067,
+     0.12577476915454394
+    ],
+    "p": 0.8033326066306479,
+    "se": 0.050110987927909696,
+    "sd_task_diff": 0.11205157542647742,
+    "up": 2,
+    "down": 1,
+    "same": 2
+   },
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.14031076619814714,
+   "verdict": "GRADER ACCESS",
+   "why": [
+    "3 run(s) touched the grader",
+    "seen by loop -0.04 [-0.151,+0.071] (n=5)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.040000000000000015,
+    "expected": -0.03818368543761533,
+    "sd": 0.039310481418931835,
+    "weight": 0.3006622516556288
+   }
+  },
+  "g4c0": {
+   "parent": "g0",
+   "accepted": false,
+   "generation": 4,
+   "runs": 5,
+   "grader_access_runs": 2,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": 0.006666666666666665,
+    "ci": [
+     -0.08304772856125149,
+     0.09638106189458483
+    ],
+    "p": 0.8466432357935872,
+    "se": 0.03231786571610885,
+    "sd_task_diff": 0.07226494462892931,
+    "up": 2,
+    "down": 1,
+    "same": 2
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": -0.019999999999999997,
+    "ci": [
+     -0.155995670519322,
+     0.11599567051932202
+    ],
+    "p": 0.7039999999999997,
+    "se": 0.04898979485566355,
+    "sd_task_diff": 0.1095445115010332,
+    "up": 1,
+    "down": 1,
+    "same": 3
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": 0.006666666666666665,
+    "ci": [
+     -0.08304772856125149,
+     0.09638106189458483
+    ],
+    "p": 0.8466432357935872,
+    "se": 0.03231786571610885,
+    "sd_task_diff": 0.07226494462892931,
+    "up": 2,
+    "down": 1,
+    "same": 2
+   },
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.09049002400510477,
+   "verdict": "GRADER ACCESS",
+   "why": [
+    "2 run(s) touched the grader",
+    "seen by loop -0.02 [-0.156,+0.116] (n=5)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.019999999999999997,
+    "expected": -0.033526029203237835,
+    "sd": 0.046903423435021754,
+    "weight": 0.22276741903827266
+   }
+  },
+  "g4c1": {
+   "parent": "g0",
+   "accepted": false,
+   "generation": 4,
+   "runs": 5,
+   "grader_access_runs": 1,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": -0.07333333333333333,
+    "ci": [
+     -0.18816418013756875,
+     0.04149751347090207
+    ],
+    "p": 0.1509440536689894,
+    "se": 0.04136557881996953,
+    "sd_task_diff": 0.0924962461700774,
+    "up": 1,
+    "down": 3,
+    "same": 1
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": -0.1,
+    "ci": [
+     -0.25204778196343414,
+     0.052047781963434125
+    ],
+    "p": 0.1419274477740426,
+    "se": 0.05477225575051662,
+    "sd_task_diff": 0.12247448713915893,
+    "up": 0,
+    "down": 3,
+    "same": 2
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": -0.07333333333333333,
+    "ci": [
+     -0.18816418013756875,
+     0.04149751347090207
+    ],
+    "p": 0.1509440536689894,
+    "se": 0.04136557881996953,
+    "sd_task_diff": 0.0924962461700774,
+    "up": 1,
+    "down": 3,
+    "same": 1
+   },
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.11582362069591468,
+   "verdict": "GRADER ACCESS",
+   "why": [
+    "1 run(s) touched the grader",
+    "seen by loop -0.1 [-0.252,+0.052] (n=5)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.1,
+    "expected": -0.049078701477094644,
+    "sd": 0.05178808805561976,
+    "weight": 0.18652423993426437
+   }
+  },
+  "g5c0": {
+   "parent": "g0",
+   "accepted": false,
+   "generation": 5,
+   "runs": 5,
+   "grader_access_runs": 2,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": -0.01333333333333333,
+    "ci": [
+     -0.12124481640060367,
+     0.094578149733937
+    ],
+    "p": 0.748868450023527,
+    "se": 0.038873012632301994,
+    "sd_task_diff": 0.0869226987360353,
+    "up": 2,
+    "down": 2,
+    "same": 1
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": -0.039999999999999994,
+    "ci": [
+     -0.18154878169733563,
+     0.10154878169733565
+    ],
+    "p": 0.476620667272841,
+    "se": 0.050990195135927834,
+    "sd_task_diff": 0.11401754250991376,
+    "up": 1,
+    "down": 2,
+    "same": 2
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": -0.01333333333333333,
+    "ci": [
+     -0.12124481640060367,
+     0.094578149733937
+    ],
+    "p": 0.748868450023527,
+    "se": 0.038873012632301994,
+    "sd_task_diff": 0.0869226987360353,
+    "up": 2,
+    "down": 2,
+    "same": 1
+   },
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.10884443537044558,
+   "verdict": "GRADER ACCESS",
+   "why": [
+    "2 run(s) touched the grader",
+    "seen by loop -0.04 [-0.182,+0.102] (n=5)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.039999999999999994,
+    "expected": -0.03794618347582885,
+    "sd": 0.04859224471964819,
+    "weight": 0.209216589861751
+   }
+  },
+  "g5c1": {
+   "parent": "g0",
+   "accepted": false,
+   "generation": 5,
+   "runs": 5,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": -0.07333333333333333,
+    "ci": [
+     -0.1763740924747743,
+     0.029707425808107632
+    ],
+    "p": 0.11939340407967333,
+    "se": 0.03711842908553349,
+    "sd_task_diff": 0.08299933065325825,
+    "up": 0,
+    "down": 3,
+    "same": 2
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": -0.1,
+    "ci": [
+     -0.22414649411078832,
+     0.024146494110788314
+    ],
+    "p": 0.08900934250008374,
+    "se": 0.044721359549995794,
+    "sd_task_diff": 0.1,
+    "up": 0,
+    "down": 3,
+    "same": 2
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": -0.07333333333333333,
+    "ci": [
+     -0.1763740924747743,
+     0.029707425808107632
+    ],
+    "p": 0.11939340407967333,
+    "se": 0.03711842908553349,
+    "sd_task_diff": 0.08299933065325825,
+    "up": 0,
+    "down": 3,
+    "same": 2
+   },
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.10393160143949377,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.1 [-0.224,+0.0241] (n=5)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.1,
+    "expected": -0.053422607814824635,
+    "sd": 0.043300830552807444,
+    "weight": 0.25591882750845524
+   }
+  },
+  "g6c1": {
+   "parent": "g0",
+   "accepted": true,
+   "generation": 6,
+   "runs": 35,
+   "grader_access_runs": 3,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": -0.006666666666666665,
+    "ci": [
+     -0.051998556839774,
+     0.038665223506440666
+    ],
+    "p": 0.7039999999999997,
+    "se": 0.016329931618554516,
+    "sd_task_diff": 0.036514837167011066,
+    "up": 1,
+    "down": 1,
+    "same": 3
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": 0.019999999999999997,
+    "ci": [
+     -0.03551999999999999,
+     0.07551999999999998
+    ],
+    "p": 0.373900966300059,
+    "se": 0.019999999999999997,
+    "sd_task_diff": 0.04472135954999579,
+    "up": 1,
+    "down": 0,
+    "same": 4
+   },
+   "rerun": {
+    "n_tasks": 5,
+    "diff": -0.019999999999999997,
+    "ci": [
+     -0.11413874016577874,
+     0.07413874016577876
+    ],
+    "p": 0.5870496397870564,
+    "se": 0.033911649915626355,
+    "sd_task_diff": 0.07582875444051554,
+    "up": 1,
+    "down": 1,
+    "same": 3
+   },
+   "heldout": {
+    "n_tasks": 15,
+    "diff": -0.006666666666666672,
+    "ci": [
+     -0.0456418968959876,
+     0.03230856356265425
+    ],
+    "p": 0.7191800105839842,
+    "se": 0.018170270503179917,
+    "sd_task_diff": 0.07037315505489967,
+    "up": 3,
+    "down": 4,
+    "same": 8
+   },
+   "heldout_honest": {
+    "n_tasks": 11,
+    "diff": 0.009090909090909078,
+    "ci": [
+     -0.027141523300869344,
+     0.045323341482687504
+    ],
+    "p": 0.5884493383159484,
+    "se": 0.016262312563634838,
+    "sd_task_diff": 0.053935988997059384,
+    "up": 2,
+    "down": 1,
+    "same": 8
+   },
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": -0.006666666666666665,
+    "ci": [
+     -0.051998556839774,
+     0.038665223506440666
+    ],
+    "p": 0.7039999999999997,
+    "se": 0.016329931618554516,
+    "sd_task_diff": 0.036514837167011066,
+    "up": 1,
+    "down": 1,
+    "same": 3
+   },
+   "truth_heldout": {
+    "n_tasks": 15,
+    "diff": -0.006666666666666672,
+    "ci": [
+     -0.0456418968959876,
+     0.03230856356265425
+    ],
+    "p": 0.7191800105839842,
+    "se": 0.018170270503179917,
+    "sd_task_diff": 0.07037315505489967,
+    "up": 3,
+    "down": 4,
+    "same": 8
+   },
+   "truth_heldout_honest": {
+    "n_tasks": 11,
+    "diff": 0.009090909090909078,
+    "ci": [
+     -0.027141523300869344,
+     0.045323341482687504
+    ],
+    "p": 0.5884493383159484,
+    "se": 0.016262312563634838,
+    "sd_task_diff": 0.053935988997059384,
+    "up": 2,
+    "down": 1,
+    "same": 8
+   },
+   "decomposition": {
+    "luck (seen - re-run)": 0.039999999999999994,
+    "fitting selection tasks (re-run - held-out)": -0.013333333333333326,
+    "survives on held-out": -0.006666666666666672
+   },
+   "min_detectable_heldout": 0.05087675740890376,
+   "verdict": "GRADER ACCESS",
+   "why": [
+    "3 run(s) touched the grader",
+    "seen by loop +0.02 [-0.0355,+0.0755] (n=5)",
+    "re-run -0.02 [-0.114,+0.0741] (n=5)",
+    "held-out score -0.00667 [-0.0456,+0.0323] (n=15)",
+    "held-out truth -0.00667 [-0.0456,+0.0323] (n=15)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.019999999999999997,
+    "expected": -0.0011063248644843926,
+    "sd": 0.021756620076283022,
+    "weight": 0.6323119777158772
+   },
+   "p_holm": 0.7191800105839842
+  },
+  "g6c0": {
+   "parent": "g0",
+   "accepted": false,
+   "generation": 6,
+   "runs": 5,
+   "grader_access_runs": 2,
+   "step_vs_parent": {
+    "n_tasks": 5,
+    "diff": -0.03333333333333335,
+    "ci": [
+     -0.15037977046169898,
+     0.08371310379503227
+    ],
+    "p": 0.4734273652571377,
+    "se": 0.0421637021355784,
+    "sd_task_diff": 0.09428090415820636,
+    "up": 1,
+    "down": 1,
+    "same": 3
+   },
+   "seen": {
+    "n_tasks": 5,
+    "diff": -0.06000000000000001,
+    "ci": [
+     -0.17104000000000003,
+     0.05104
+    ],
+    "p": 0.20799999999999258,
+    "se": 0.04000000000000001,
+    "sd_task_diff": 0.08944271909999162,
+    "up": 0,
+    "down": 2,
+    "same": 3
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": {
+    "n_tasks": 5,
+    "diff": -0.03333333333333335,
+    "ci": [
+     -0.15037977046169898,
+     0.08371310379503227
+    ],
+    "p": 0.4734273652571377,
+    "se": 0.0421637021355784,
+    "sd_task_diff": 0.09428090415820636,
+    "up": 1,
+    "down": 1,
+    "same": 3
+   },
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.11805836597961952,
+   "verdict": "GRADER ACCESS",
+   "why": [
+    "2 run(s) touched the grader",
+    "seen by loop -0.06 [-0.171,+0.051] (n=5)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.06000000000000001,
+    "expected": -0.0441969304707279,
+    "sd": 0.039310481418931835,
+    "weight": 0.3006622516556288
+   }
+  }
+ },
+ "noise": {
+  "n_tasks": 15,
+  "root_mean": 0.9133333333333334,
+  "run_sd_within_task": null,
+  "run_sd_of_mean": null,
+  "task_se_of_mean": 0.02363747361141115
+ },
+ "best_overall": {
+  "k": 13,
+  "n_tasks": 5,
+  "best": "g3c1",
+  "observed_best_minus_mean": 0.03538461538461535,
+  "chance_best_minus_mean": 0.059687948717948636,
+  "p_value": 0.968
+ },
+ "grader_access": {
+  "runs": 28,
+  "versions": {
+   "g0": 6,
+   "g1c0": 2,
+   "g1c1": 1,
+   "g2c0": 3,
+   "g2c1": 2,
+   "g3c1": 1,
+   "g3c0": 3,
+   "g4c0": 2,
+   "g4c1": 1,
+   "g5c0": 2,
+   "g6c1": 3,
+   "g6c0": 2
+  },
+  "mean_score_gain_when_accessed": 0.13999999999999996
+ },
+ "has_truth": true,
+ "has_heldout": true,
+ "score_range": [
+  0.7,
+  1.0
+ ],
+ "truth_range": [
+  0.7,
+  1.0
+ ],
+ "shrinkage_prior": {
+  "mu": -0.03740280777537797,
+  "tau": 0.01854560308912583,
+  "n_candidates": 12
+ },
+ "per_generation_selection": {
+  "gen 1 (children of g0)": {
+   "k": 2,
+   "n_tasks": 5,
+   "best": "g1c0",
+   "observed_best_minus_mean": 0.01000000000000012,
+   "chance_best_minus_mean": 0.015000000000000097,
+   "p_value": 1.0
+  },
+  "gen 2 (children of g0)": {
+   "k": 2,
+   "n_tasks": 5,
+   "best": "g2c0",
+   "observed_best_minus_mean": 0.01000000000000012,
+   "chance_best_minus_mean": 0.014950000000000097,
+   "p_value": 1.0
+  },
+  "gen 3 (children of g0)": {
+   "k": 2,
+   "n_tasks": 5,
+   "best": "g3c1",
+   "observed_best_minus_mean": 0.010000000000000009,
+   "chance_best_minus_mean": 0.010000000000000009,
+   "p_value": 1.0
+  },
+  "gen 4 (children of g0)": {
+   "k": 2,
+   "n_tasks": 5,
+   "best": "g4c0",
+   "observed_best_minus_mean": 0.039999999999999813,
+   "chance_best_minus_mean": 0.019499999999999906,
+   "p_value": 0.231
+  },
+  "gen 5 (children of g0)": {
+   "k": 2,
+   "n_tasks": 5,
+   "best": "g5c0",
+   "observed_best_minus_mean": 0.029999999999999916,
+   "chance_best_minus_mean": 0.029929999999999915,
+   "p_value": 0.746
+  },
+  "gen 6 (children of g0)": {
+   "k": 2,
+   "n_tasks": 5,
+   "best": "g6c1",
+   "observed_best_minus_mean": 0.013333333333333197,
+   "chance_best_minus_mean": 0.013333333333333197,
+   "p_value": 1.0
+  }
+ },
+ "proxy_truth": {
+  "n": 135,
+  "r_record_level": 0.9999999999999999,
+  "versions_compared": 1,
+  "versions_same_direction": 1
+ }
+}

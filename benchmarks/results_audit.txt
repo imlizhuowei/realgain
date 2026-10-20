@@ -1,0 +1,40 @@
+== retail memos: final vs start playbook (judge says better) | N=21 full-label verdict: worse (-12.4 [-22.1,-2.6]) | judge-truth r=+0.30
+   m=  3  classical: agrees 0.01, false 'better' 0.00, width 99.4   ppi: agrees 0.02, false 'better' 0.00, width 172.1
+   m=  5  classical: agrees 0.02, false 'better' 0.00, width 52.0   ppi: agrees 0.02, false 'better' 0.00, width 74.5
+   m=  8  classical: agrees 0.13, false 'better' 0.00, width 35.8   ppi: agrees 0.06, false 'better' 0.00, width 46.4
+   m= 10  classical: agrees 0.19, false 'better' 0.00, width 30.8   ppi: agrees 0.12, false 'better' 0.00, width 38.2
+   m= 15  classical: agrees 0.60, false 'better' 0.00, width 23.5   ppi: agrees 0.41, false 'better' 0.00, width 26.9
+   m= 20  classical: agrees 1.00, false 'better' 0.00, width 20.4   ppi: agrees 1.00, false 'better' 0.00, width 22.4
+== contracts: judge-picked final vs start (judge says better) | N=15 full-label verdict: not settled (+0.0 [-4.2,+4.2]) | judge-truth r=-0.30
+   m=  3  classical: agrees 0.98, false 'better' 0.01, width 28.7   ppi: agrees 0.98, false 'better' 0.01, width 54.5
+   m=  5  classical: agrees 1.00, false 'better' 0.00, width 20.8   ppi: agrees 0.99, false 'better' 0.01, width 26.8
+   m=  8  classical: agrees 0.98, false 'better' 0.01, width 12.6   ppi: agrees 1.00, false 'better' 0.00, width 16.5
+   m= 10  classical: agrees 0.99, false 'better' 0.00, width 10.6   ppi: agrees 1.00, false 'better' 0.00, width 13.5
+== sim: judge fooled (true 0, judge +1, uncorrelated) | N=200 full-label verdict: not settled (+0.2 [-1.8,+2.2]) | judge-truth r=+nan
+   m=  5  classical: agrees 0.95, false 'better' 0.03, width 33.0   ppi: agrees 0.95, false 'better' 0.02, width 48.2
+   m= 10  classical: agrees 0.95, false 'better' 0.03, width 20.1   ppi: agrees 0.96, false 'better' 0.02, width 23.5
+   m= 20  classical: agrees 0.96, false 'better' 0.03, width 13.3   ppi: agrees 0.97, false 'better' 0.02, width 14.5
+   m= 30  classical: agrees 0.96, false 'better' 0.02, width 10.7   ppi: agrees 0.96, false 'better' 0.02, width 11.4
+   m= 50  classical: agrees 0.97, false 'better' 0.02, width 8.2   ppi: agrees 0.97, false 'better' 0.02, width 8.5
+   m=100  classical: agrees 0.99, false 'better' 0.01, width 5.7   ppi: agrees 0.99, false 'better' 0.01, width 5.8
+== sim: real 3-pt gain, judge informative (rho .6) | N=200 full-label verdict: better (+3.2 [+1.2,+5.2]) | judge-truth r=+nan
+   m=  5  classical: agrees 0.06, false 'better' 0.00, width 33.0   ppi: agrees 0.04, false 'better' 0.00, width 41.3
+   m= 10  classical: agrees 0.10, false 'better' 0.00, width 20.1   ppi: agrees 0.08, false 'better' 0.00, width 20.2
+   m= 20  classical: agrees 0.15, false 'better' 0.00, width 13.3   ppi: agrees 0.16, false 'better' 0.00, width 12.4
+   m= 30  classical: agrees 0.20, false 'better' 0.00, width 10.7   ppi: agrees 0.21, false 'better' 0.00, width 9.8
+   m= 50  classical: agrees 0.33, false 'better' 0.00, width 8.2   ppi: agrees 0.38, false 'better' 0.00, width 7.5
+   m=100  classical: agrees 0.64, false 'better' 0.00, width 5.7   ppi: agrees 0.73, false 'better' 0.00, width 5.4
+== sim: real 3-pt gain, judge uninformative | N=200 full-label verdict: better (+3.2 [+1.2,+5.2]) | judge-truth r=+nan
+   m=  5  classical: agrees 0.06, false 'better' 0.00, width 33.0   ppi: agrees 0.04, false 'better' 0.00, width 48.2
+   m= 10  classical: agrees 0.10, false 'better' 0.00, width 20.1   ppi: agrees 0.07, false 'better' 0.00, width 23.5
+   m= 20  classical: agrees 0.15, false 'better' 0.00, width 13.3   ppi: agrees 0.13, false 'better' 0.00, width 14.5
+   m= 30  classical: agrees 0.20, false 'better' 0.00, width 10.7   ppi: agrees 0.17, false 'better' 0.00, width 11.4
+   m= 50  classical: agrees 0.33, false 'better' 0.00, width 8.2   ppi: agrees 0.31, false 'better' 0.00, width 8.5
+   m=100  classical: agrees 0.64, false 'better' 0.00, width 5.7   ppi: agrees 0.62, false 'better' 0.00, width 5.8
+== sim: real 3-pt LOSS, judge says better (rho .3) | N=200 full-label verdict: worse (-2.8 [-4.8,-0.8]) | judge-truth r=+nan
+   m=  5  classical: agrees 0.05, false 'better' 0.01, width 33.0   ppi: agrees 0.04, false 'better' 0.01, width 48.4
+   m= 10  classical: agrees 0.06, false 'better' 0.01, width 20.1   ppi: agrees 0.05, false 'better' 0.01, width 23.1
+   m= 20  classical: agrees 0.11, false 'better' 0.00, width 13.3   ppi: agrees 0.09, false 'better' 0.00, width 14.1
+   m= 30  classical: agrees 0.14, false 'better' 0.00, width 10.7   ppi: agrees 0.13, false 'better' 0.00, width 11.1
+   m= 50  classical: agrees 0.21, false 'better' 0.00, width 8.2   ppi: agrees 0.19, false 'better' 0.00, width 8.3
+   m=100  classical: agrees 0.46, false 'better' 0.00, width 5.7   ppi: agrees 0.46, false 'better' 0.00, width 5.7

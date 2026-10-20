@@ -1,0 +1,2116 @@
+{
+ "n_records": 1637,
+ "root": "initial",
+ "versions": {
+  "20250416_055304_550776": {
+   "parent": "initial",
+   "accepted": true,
+   "generation": 3,
+   "runs": 60,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 58,
+    "diff": -0.017241379310344827,
+    "ci": [
+     -0.0949815537964592,
+     0.06049879517576955
+    ],
+    "p": 0.6586460867871508,
+    "se": 0.038822500120871975,
+    "sd_task_diff": 0.2956633523229351,
+    "up": 2,
+    "down": 3,
+    "same": 53
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": -0.017241379310344827,
+    "ci": [
+     -0.0949815537964592,
+     0.06049879517576955
+    ],
+    "p": 0.6586460867871508,
+    "se": 0.038822500120871975,
+    "sd_task_diff": 0.2956633523229351,
+    "up": 2,
+    "down": 3,
+    "same": 53
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.10870300033844152,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0172 [-0.095,+0.0605] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.017241379310344827,
+    "expected": -0.01787420067731991,
+    "sd": 0.046013853477875996,
+    "weight": 0.9510252208605042
+   },
+   "p_holm": 1.0
+  },
+  "20250416_093634_522704": {
+   "parent": "20250416_055304_550776",
+   "accepted": true,
+   "generation": 4,
+   "runs": 58,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 58,
+    "diff": 0.017241379310344827,
+    "ci": [
+     -0.042906406048124936,
+     0.0773891646688146
+    ],
+    "p": 0.568223833003435,
+    "se": 0.030037074392809053,
+    "sd_task_diff": 0.22875554333958867,
+    "up": 2,
+    "down": 1,
+    "same": 55
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": 0.0,
+    "ci": [
+     -0.09850438864543973,
+     0.09850438864543973
+    ],
+    "p": 1.0,
+    "se": 0.049191896794328185,
+    "sd_task_diff": 0.3746343246326776,
+    "up": 4,
+    "down": 4,
+    "same": 50
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.08410380829986534,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0 [-0.0985,+0.0985] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.0,
+    "expected": -0.0023034109513349714,
+    "sd": 0.057894767836220405,
+    "weight": 0.9236339256527093
+   },
+   "p_holm": 1.0
+  },
+  "20250416_113358_812162": {
+   "parent": "20250416_093634_522704",
+   "accepted": true,
+   "generation": 5,
+   "runs": 58,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 57,
+    "diff": -0.05263157894736842,
+    "ci": [
+     -0.14537719422142797,
+     0.040114036326691124
+    ],
+    "p": 0.26046426646647347,
+    "se": 0.046298128325591895,
+    "sd_task_diff": 0.34954320352113777,
+    "up": 2,
+    "down": 5,
+    "same": 50
+   },
+   "seen": {
+    "n_tasks": 57,
+    "diff": -0.05263157894736842,
+    "ci": [
+     -0.15806452729445514,
+     0.052801369399718315
+    ],
+    "p": 0.321612066784955,
+    "se": 0.052631578947368425,
+    "sd_task_diff": 0.3973597071195132,
+    "up": 3,
+    "down": 6,
+    "same": 48
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.1296347593116573,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0526 [-0.158,+0.0528] (n=57)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.05263157894736842,
+    "expected": -0.050688848204223876,
+    "sd": 0.061780952618752834,
+    "weight": 0.9135366196062611
+   },
+   "p_holm": 1.0
+  },
+  "20250416_162446_431374": {
+   "parent": "20250416_113358_812162",
+   "accepted": true,
+   "generation": 9,
+   "runs": 56,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 55,
+    "diff": -0.03636363636363636,
+    "ci": [
+     -0.1259277240784925,
+     0.05320045135121977
+    ],
+    "p": 0.4192267683841642,
+    "se": 0.04467342300504238,
+    "sd_task_diff": 0.3313069721033799,
+    "up": 2,
+    "down": 4,
+    "same": 49
+   },
+   "seen": {
+    "n_tasks": 55,
+    "diff": -0.09090909090909091,
+    "ci": [
+     -0.16934141983669582,
+     -0.01247676198148602
+    ],
+    "p": 0.02393004206636554,
+    "se": 0.039121043901085006,
+    "sd_task_diff": 0.29012942659282964,
+    "up": 0,
+    "down": 5,
+    "same": 50
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.12508558441411866,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0909 [-0.169,-0.0125] (n=55)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.09090909090909091,
+    "expected": -0.08789040304400575,
+    "sd": 0.04635918297467578,
+    "weight": 0.9503066701217199
+   },
+   "p_holm": 1.0
+  },
+  "20250416_210105_111866": {
+   "parent": "20250416_162446_431374",
+   "accepted": false,
+   "generation": 13,
+   "runs": 10,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 10,
+    "diff": -0.2,
+    "ci": [
+     -0.5016,
+     0.10159999999999997
+    ],
+    "p": 0.16785065605708682,
+    "se": 0.13333333333333333,
+    "sd_task_diff": 0.42163702135578396,
+    "up": 0,
+    "down": 2,
+    "same": 8
+   },
+   "seen": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.3733333333333333,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.3 [-0.646,+0.0455] (n=10)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.3,
+    "expected": -0.18030237115128958,
+    "sd": 0.16198605852815903,
+    "weight": 0.5564080582818318
+   }
+  },
+  "20250416_213848_898101": {
+   "parent": "20250416_162446_431374",
+   "accepted": false,
+   "generation": 14,
+   "runs": 10,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 10,
+    "diff": -0.2,
+    "ci": [
+     -0.5016,
+     0.10159999999999997
+    ],
+    "p": 0.16785065605708682,
+    "se": 0.13333333333333333,
+    "sd_task_diff": 0.42163702135578396,
+    "up": 0,
+    "down": 2,
+    "same": 8
+   },
+   "seen": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.3733333333333333,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.3 [-0.646,+0.0455] (n=10)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.3,
+    "expected": -0.18030237115128958,
+    "sd": 0.16198605852815903,
+    "weight": 0.5564080582818318
+   }
+  },
+  "20250416_224440_336448": {
+   "parent": "20250416_162446_431374",
+   "accepted": true,
+   "generation": 17,
+   "runs": 59,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 55,
+    "diff": 0.05454545454545454,
+    "ci": [
+     -0.02635778738682234,
+     0.13544869647773142
+    ],
+    "p": 0.18210941606086328,
+    "se": 0.04035350374835996,
+    "sd_task_diff": 0.29926959344759635,
+    "up": 4,
+    "down": 1,
+    "same": 50
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": -0.034482758620689655,
+    "ci": [
+     -0.13256164035834145,
+     0.06359612311696214
+    ],
+    "p": 0.48428312400293094,
+    "se": 0.048979403806137384,
+    "sd_task_diff": 0.37301602624802943,
+    "up": 3,
+    "down": 5,
+    "same": 50
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.11298981049540789,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0345 [-0.133,+0.0636] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.034482758620689655,
+    "expected": -0.03415548519255122,
+    "sd": 0.057653757921733606,
+    "weight": 0.9242423805005043
+   },
+   "p_holm": 1.0
+  },
+  "20250417_031558_514074": {
+   "parent": "20250416_224440_336448",
+   "accepted": true,
+   "generation": 19,
+   "runs": 59,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 58,
+    "diff": -0.034482758620689655,
+    "ci": [
+     -0.10353281113118647,
+     0.03456729388980716
+    ],
+    "p": 0.3215369352642672,
+    "se": 0.034482758620689655,
+    "sd_task_diff": 0.26261286571944514,
+    "up": 1,
+    "down": 3,
+    "same": 54
+   },
+   "seen": {
+    "n_tasks": 57,
+    "diff": -0.07017543859649122,
+    "ci": [
+     -0.16868704961497305,
+     0.028336172421990602
+    ],
+    "p": 0.1591286343259416,
+    "se": 0.04917648338433229,
+    "sd_task_diff": 0.37127430766055175,
+    "up": 2,
+    "down": 6,
+    "same": 49
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.09655172413793105,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0702 [-0.169,+0.0283] (n=57)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.07017543859649122,
+    "expected": -0.06712159520877992,
+    "sd": 0.05787728952967976,
+    "weight": 0.9236781221891455
+   },
+   "p_holm": 1.0
+  },
+  "20250417_081747_776010": {
+   "parent": "20250417_031558_514074",
+   "accepted": false,
+   "generation": 22,
+   "runs": 10,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "seen": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.42770706486254495,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.3 [-0.646,+0.0455] (n=10)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.3,
+    "expected": -0.18030237115128958,
+    "sd": 0.16198605852815903,
+    "weight": 0.5564080582818318
+   }
+  },
+  "20250417_083450_945178": {
+   "parent": "20250417_031558_514074",
+   "accepted": false,
+   "generation": 24,
+   "runs": 10,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "seen": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.42770706486254495,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.3 [-0.646,+0.0455] (n=10)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.3,
+    "expected": -0.18030237115128958,
+    "sd": 0.16198605852815903,
+    "weight": 0.5564080582818318
+   }
+  },
+  "20250417_090245_738428": {
+   "parent": "20250417_031558_514074",
+   "accepted": true,
+   "generation": 28,
+   "runs": 56,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 56,
+    "diff": -0.017857142857142856,
+    "ci": [
+     -0.08021524981130812,
+     0.0445009640970224
+    ],
+    "p": 0.5683867459533538,
+    "se": 0.03111636547495638,
+    "sd_task_diff": 0.23285355745785635,
+    "up": 1,
+    "down": 2,
+    "same": 53
+   },
+   "seen": {
+    "n_tasks": 55,
+    "diff": -0.09090909090909091,
+    "ci": [
+     -0.16934141983669582,
+     -0.01247676198148602
+    ],
+    "p": 0.02393004206636554,
+    "se": 0.039121043901085006,
+    "sd_task_diff": 0.29012942659282964,
+    "up": 0,
+    "down": 5,
+    "same": 50
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.08712582332987787,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0909 [-0.169,-0.0125] (n=55)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.09090909090909091,
+    "expected": -0.08789040304400575,
+    "sd": 0.04635918297467578,
+    "weight": 0.9503066701217199
+   },
+   "p_holm": 1.0
+  },
+  "20250417_131047_771544": {
+   "parent": "20250417_090245_738428",
+   "accepted": true,
+   "generation": 29,
+   "runs": 60,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 56,
+    "diff": 0.07142857142857142,
+    "ci": [
+     -0.014891079643818458,
+     0.15774822250096132
+    ],
+    "p": 0.1029476489907164,
+    "se": 0.0430730492253948,
+    "sd_task_diff": 0.3223291856101521,
+    "up": 5,
+    "down": 1,
+    "same": 50
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": -0.017241379310344827,
+    "ci": [
+     -0.12162093679329941,
+     0.08713817817260977
+    ],
+    "p": 0.7420353917735159,
+    "se": 0.05212588484378007,
+    "sd_task_diff": 0.3969789119126194,
+    "up": 4,
+    "down": 5,
+    "same": 49
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.12060453783110545,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0172 [-0.122,+0.0871] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.017241379310344827,
+    "expected": -0.018339054012549264,
+    "sd": 0.06121141797077954,
+    "weight": 0.9150496824017779
+   },
+   "p_holm": 1.0
+  },
+  "20250417_200427_630734": {
+   "parent": "20250417_131047_771544",
+   "accepted": true,
+   "generation": 31,
+   "runs": 58,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 58,
+    "diff": -0.017241379310344827,
+    "ci": [
+     -0.109270251816393,
+     0.07478749319570333
+    ],
+    "p": 0.7089380905150231,
+    "se": 0.04595810258475716,
+    "sd_task_diff": 0.35000648166152815,
+    "up": 3,
+    "down": 4,
+    "same": 51
+   },
+   "seen": {
+    "n_tasks": 56,
+    "diff": -0.05357142857142857,
+    "ci": [
+     -0.14800666543647292,
+     0.04086380829361579
+    ],
+    "p": 0.26052988749709105,
+    "se": 0.047122683601775316,
+    "sd_task_diff": 0.35263387436638777,
+    "up": 2,
+    "down": 5,
+    "same": 49
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.12868268723732004,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0536 [-0.148,+0.0409] (n=56)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.05357142857142857,
+    "expected": -0.051920644351781356,
+    "sd": 0.05554333202516348,
+    "weight": 0.9294798146750634
+   },
+   "p_holm": 1.0
+  },
+  "20250418_024311_734166": {
+   "parent": "20250417_200427_630734",
+   "accepted": true,
+   "generation": 32,
+   "runs": 59,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 57,
+    "diff": 0.03508771929824561,
+    "ci": [
+     -0.06475819554132577,
+     0.134933634137817
+    ],
+    "p": 0.4843679035631614,
+    "se": 0.04984256090564246,
+    "sd_task_diff": 0.37630308266749907,
+    "up": 5,
+    "down": 3,
+    "same": 49
+   },
+   "seen": {
+    "n_tasks": 57,
+    "diff": 0.0,
+    "ci": [
+     -0.1002867377990847,
+     0.1002867377990847
+    ],
+    "p": 1.0,
+    "se": 0.05006261743217588,
+    "sd_task_diff": 0.3779644730092272,
+    "up": 4,
+    "down": 4,
+    "same": 49
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.13955917053579886,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0 [-0.1,+0.1] (n=57)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.0,
+    "expected": -0.0023791867299289386,
+    "sd": 0.058881216318140486,
+    "weight": 0.9211216953715791
+   },
+   "p_holm": 1.0
+  },
+  "20250418_111445_657569": {
+   "parent": "20250418_024311_734166",
+   "accepted": true,
+   "generation": 33,
+   "runs": 60,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 59,
+    "diff": -0.03389830508474576,
+    "ci": [
+     -0.11724107439320411,
+     0.04944446422371258
+    ],
+    "p": 0.4188832604792533,
+    "se": 0.04163590546106081,
+    "sd_task_diff": 0.3198114581908866,
+    "up": 2,
+    "down": 4,
+    "same": 53
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": -0.034482758620689655,
+    "ci": [
+     -0.14423359318932172,
+     0.07526807594794242
+    ],
+    "p": 0.5317625138828883,
+    "se": 0.05480823546476044,
+    "sd_task_diff": 0.41740708563237905,
+    "up": 4,
+    "down": 6,
+    "same": 48
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.11658053529097025,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0345 [-0.144,+0.0753] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.034482758620689655,
+    "expected": -0.034080637531179465,
+    "sd": 0.06422517837933284,
+    "weight": 0.9069165600607535
+   },
+   "p_holm": 1.0
+  },
+  "20250418_202649_433233": {
+   "parent": "20250418_111445_657569",
+   "accepted": false,
+   "generation": 35,
+   "runs": 10,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 10,
+    "diff": -0.2,
+    "ci": [
+     -0.5016,
+     0.10159999999999997
+    ],
+    "p": 0.16785065605708682,
+    "se": 0.13333333333333333,
+    "sd_task_diff": 0.42163702135578396,
+    "up": 0,
+    "down": 2,
+    "same": 8
+   },
+   "seen": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.3733333333333333,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.3 [-0.646,+0.0455] (n=10)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.3,
+    "expected": -0.18030237115128958,
+    "sd": 0.16198605852815903,
+    "weight": 0.5564080582818318
+   }
+  },
+  "20250418_221338_788747": {
+   "parent": "20250418_111445_657569",
+   "accepted": true,
+   "generation": 36,
+   "runs": 59,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 59,
+    "diff": 0.05084745762711865,
+    "ci": [
+     -0.05093411488850377,
+     0.15262903014274107
+    ],
+    "p": 0.32146438312081305,
+    "se": 0.05084745762711865,
+    "sd_task_diff": 0.39056673294247163,
+    "up": 6,
+    "down": 3,
+    "same": 50
+   },
+   "seen": {
+    "n_tasks": 57,
+    "diff": 0.017543859649122806,
+    "ci": [
+     -0.09995894958630738,
+     0.135046668884553
+    ],
+    "p": 0.7659759672314126,
+    "se": 0.058656790669014795,
+    "sd_task_diff": 0.4428490580553959,
+    "up": 6,
+    "down": 5,
+    "same": 46
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.1423728813559322,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0.0175 [-0.1,+0.135] (n=57)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.017543859649122806,
+    "expected": 0.012525534799589077,
+    "sd": 0.0685176472851884,
+    "weight": 0.8948086084840708
+   },
+   "p_holm": 1.0
+  },
+  "20250419_072917_573516": {
+   "parent": "20250418_221338_788747",
+   "accepted": true,
+   "generation": 37,
+   "runs": 60,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 59,
+    "diff": 0.01694915254237288,
+    "ci": [
+     -0.07347459725747936,
+     0.10737290234222512
+    ],
+    "p": 0.7088787001161998,
+    "se": 0.045173381318385976,
+    "sd_task_diff": 0.3469833258305676,
+    "up": 4,
+    "down": 3,
+    "same": 52
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": 0.034482758620689655,
+    "ci": [
+     -0.0752680759479424,
+     0.14423359318932172
+    ],
+    "p": 0.5317625138828883,
+    "se": 0.05480823546476043,
+    "sd_task_diff": 0.41740708563237894,
+    "up": 6,
+    "down": 4,
+    "same": 48
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.12648546769148072,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0.0345 [-0.0753,+0.144] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.034482758620689655,
+    "expected": 0.02846533212818284,
+    "sd": 0.06422517837933281,
+    "weight": 0.9069165600607535
+   },
+   "p_holm": 1.0
+  },
+  "20250419_142607_602822": {
+   "parent": "20250419_072917_573516",
+   "accepted": false,
+   "generation": 38,
+   "runs": 10,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 10,
+    "diff": -0.4,
+    "ci": [
+     -0.7693830532117033,
+     -0.03061694678829674
+    ],
+    "p": 0.03678749787978568,
+    "se": 0.16329931618554522,
+    "sd_task_diff": 0.5163977794943223,
+    "up": 0,
+    "down": 4,
+    "same": 6
+   },
+   "seen": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.4572380853195266,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.3 [-0.646,+0.0455] (n=10)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.3,
+    "expected": -0.18030237115128958,
+    "sd": 0.16198605852815903,
+    "weight": 0.5564080582818318
+   }
+  },
+  "20250419_154712_291595": {
+   "parent": "20250419_072917_573516",
+   "accepted": false,
+   "generation": 40,
+   "runs": 10,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 10,
+    "diff": -0.4,
+    "ci": [
+     -0.7693830532117033,
+     -0.03061694678829674
+    ],
+    "p": 0.03678749787978568,
+    "se": 0.16329931618554522,
+    "sd_task_diff": 0.5163977794943223,
+    "up": 0,
+    "down": 4,
+    "same": 6
+   },
+   "seen": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.4572380853195266,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.3 [-0.646,+0.0455] (n=10)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.3,
+    "expected": -0.18030237115128958,
+    "sd": 0.16198605852815903,
+    "weight": 0.5564080582818318
+   }
+  },
+  "20250419_160500_847290": {
+   "parent": "20250419_072917_573516",
+   "accepted": true,
+   "generation": 41,
+   "runs": 59,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 59,
+    "diff": -0.01694915254237288,
+    "ci": [
+     -0.09333406233902343,
+     0.059435757254277674
+    ],
+    "p": 0.6585790786834091,
+    "se": 0.03815993768066728,
+    "sd_task_diff": 0.2931120430547885,
+    "up": 2,
+    "down": 3,
+    "same": 54
+   },
+   "seen": {
+    "n_tasks": 57,
+    "diff": 0.017543859649122806,
+    "ci": [
+     -0.07614816396562635,
+     0.11123588326387196
+    ],
+    "p": 0.708999578984574,
+    "se": 0.04677057044240983,
+    "sd_task_diff": 0.35311006328336203,
+    "up": 4,
+    "down": 3,
+    "same": 50
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.10684782550586835,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0.0175 [-0.0761,+0.111] (n=57)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.017543859649122806,
+    "expected": 0.014226186885142291,
+    "sd": 0.05514219681602803,
+    "weight": 0.930456750987327
+   },
+   "p_holm": 1.0
+  },
+  "20250420_025027_311593": {
+   "parent": "20250419_160500_847290",
+   "accepted": true,
+   "generation": 43,
+   "runs": 60,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 59,
+    "diff": 0.01694915254237288,
+    "ci": [
+     -0.059435757254277674,
+     0.09333406233902343
+    ],
+    "p": 0.6585790786834091,
+    "se": 0.03815993768066728,
+    "sd_task_diff": 0.2931120430547885,
+    "up": 3,
+    "down": 2,
+    "same": 54
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": 0.034482758620689655,
+    "ci": [
+     -0.0752680759479424,
+     0.14423359318932172
+    ],
+    "p": 0.5317625138828883,
+    "se": 0.05480823546476043,
+    "sd_task_diff": 0.41740708563237894,
+    "up": 6,
+    "down": 4,
+    "same": 48
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.10684782550586835,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0.0345 [-0.0753,+0.144] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.034482758620689655,
+    "expected": 0.02846533212818284,
+    "sd": 0.06422517837933281,
+    "weight": 0.9069165600607535
+   },
+   "p_holm": 1.0
+  },
+  "20250420_091959_410644": {
+   "parent": "20250420_025027_311593",
+   "accepted": false,
+   "generation": 44,
+   "runs": 10,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 10,
+    "diff": -0.4,
+    "ci": [
+     -0.7693830532117033,
+     -0.03061694678829674
+    ],
+    "p": 0.03678749787978568,
+    "se": 0.16329931618554522,
+    "sd_task_diff": 0.5163977794943223,
+    "up": 0,
+    "down": 4,
+    "same": 6
+   },
+   "seen": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.4572380853195266,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.3 [-0.646,+0.0455] (n=10)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.3,
+    "expected": -0.18030237115128958,
+    "sd": 0.16198605852815903,
+    "weight": 0.5564080582818318
+   }
+  },
+  "20250420_094759_992223": {
+   "parent": "20250420_025027_311593",
+   "accepted": true,
+   "generation": 45,
+   "runs": 60,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 60,
+    "diff": -0.03333333333333333,
+    "ci": [
+     -0.12805941639565563,
+     0.061392749728988956
+    ],
+    "p": 0.48412212587057246,
+    "se": 0.0473397783469248,
+    "sd_task_diff": 0.3666923463015805,
+    "up": 3,
+    "down": 5,
+    "same": 52
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": 0.0,
+    "ci": [
+     -0.11013125454663082,
+     0.11013125454663082
+    ],
+    "p": 1.0,
+    "se": 0.0549982125871359,
+    "sd_task_diff": 0.4188539082916955,
+    "up": 5,
+    "down": 5,
+    "same": 48
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.13255137937138944,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0 [-0.11,+0.11] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.0,
+    "expected": -0.0028253239641925325,
+    "sd": 0.06443794831976216,
+    "weight": 0.9063306963181437
+   },
+   "p_holm": 1.0
+  },
+  "20250420_161532_184048": {
+   "parent": "20250420_094759_992223",
+   "accepted": false,
+   "generation": 47,
+   "runs": 10,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 10,
+    "diff": -0.4,
+    "ci": [
+     -0.7693830532117033,
+     -0.03061694678829674
+    ],
+    "p": 0.03678749787978568,
+    "se": 0.16329931618554522,
+    "sd_task_diff": 0.5163977794943223,
+    "up": 0,
+    "down": 4,
+    "same": 6
+   },
+   "seen": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.4572380853195266,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.3 [-0.646,+0.0455] (n=10)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.3,
+    "expected": -0.18030237115128958,
+    "sd": 0.16198605852815903,
+    "weight": 0.5564080582818318
+   }
+  },
+  "20250420_163539_584164": {
+   "parent": "20250420_094759_992223",
+   "accepted": true,
+   "generation": 48,
+   "runs": 59,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 59,
+    "diff": -0.01694915254237288,
+    "ci": [
+     -0.09333406233902343,
+     0.059435757254277674
+    ],
+    "p": 0.6585790786834091,
+    "se": 0.03815993768066728,
+    "sd_task_diff": 0.2931120430547885,
+    "up": 2,
+    "down": 3,
+    "same": 54
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": -0.017241379310344827,
+    "ci": [
+     -0.12162093679329941,
+     0.08713817817260977
+    ],
+    "p": 0.7420353917735159,
+    "se": 0.05212588484378007,
+    "sd_task_diff": 0.3969789119126194,
+    "up": 4,
+    "down": 5,
+    "same": 49
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.10684782550586835,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0172 [-0.122,+0.0871] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.017241379310344827,
+    "expected": -0.018339054012549264,
+    "sd": 0.06121141797077954,
+    "weight": 0.9150496824017779
+   },
+   "p_holm": 1.0
+  },
+  "20250421_015519_585468": {
+   "parent": "20250420_163539_584164",
+   "accepted": true,
+   "generation": 49,
+   "runs": 60,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 59,
+    "diff": 0.01694915254237288,
+    "ci": [
+     -0.04215122276454546,
+     0.07604952784929123
+    ],
+    "p": 0.5681465536035326,
+    "se": 0.02952502849869103,
+    "sd_task_diff": 0.22678604710842007,
+    "up": 2,
+    "down": 1,
+    "same": 56
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": 0.0,
+    "ci": [
+     -0.0853073029512062,
+     0.0853073029512062
+    ],
+    "p": 1.0,
+    "se": 0.042601432284230495,
+    "sd_task_diff": 0.3244428422615251,
+    "up": 3,
+    "down": 3,
+    "same": 52
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.08267007979633488,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0 [-0.0853,+0.0853] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.0,
+    "expected": -0.001761181849516038,
+    "sd": 0.05037117930121744,
+    "weight": 0.9416107039079186
+   },
+   "p_holm": 1.0
+  },
+  "20250421_103353_350599": {
+   "parent": "20250421_015519_585468",
+   "accepted": true,
+   "generation": 50,
+   "runs": 60,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 60,
+    "diff": 0.016666666666666666,
+    "ci": [
+     -0.07220700335690407,
+     0.1055403366902374
+    ],
+    "p": 0.7088213022065144,
+    "se": 0.04441500908493733,
+    "sd_task_diff": 0.34403718101522685,
+    "up": 4,
+    "down": 3,
+    "same": 53
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": 0.017241379310344827,
+    "ci": [
+     -0.08713817817260977,
+     0.12162093679329941
+    ],
+    "p": 0.7420353917735159,
+    "se": 0.05212588484378007,
+    "sd_task_diff": 0.3969789119126194,
+    "up": 5,
+    "down": 4,
+    "same": 49
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.12436202543782453,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0.0172 [-0.0871,+0.122] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.017241379310344827,
+    "expected": 0.013214383311649976,
+    "sd": 0.06121141797077954,
+    "weight": 0.9150496824017779
+   },
+   "p_holm": 1.0
+  },
+  "20250421_173043_916516": {
+   "parent": "20250421_103353_350599",
+   "accepted": false,
+   "generation": 52,
+   "runs": 10,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "seen": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.42770706486254495,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.3 [-0.646,+0.0455] (n=10)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.3,
+    "expected": -0.18030237115128958,
+    "sd": 0.16198605852815903,
+    "weight": 0.5564080582818318
+   }
+  },
+  "20250422_074351_059880": {
+   "parent": "20250421_103353_350599",
+   "accepted": true,
+   "generation": 55,
+   "runs": 57,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 57,
+    "diff": 0.0,
+    "ci": [
+     -0.1002867377990847,
+     0.1002867377990847
+    ],
+    "p": 1.0,
+    "se": 0.05006261743217588,
+    "sd_task_diff": 0.3779644730092272,
+    "up": 4,
+    "down": 4,
+    "same": 49
+   },
+   "seen": {
+    "n_tasks": 55,
+    "diff": 0.01818181818181818,
+    "ci": [
+     -0.09207071610520776,
+     0.1284343524688441
+    ],
+    "p": 0.7422085093706943,
+    "se": 0.05499255591440889,
+    "sd_task_diff": 0.40783570997396285,
+    "up": 5,
+    "down": 4,
+    "same": 46
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.14017532881009245,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0.0182 [-0.0921,+0.128] (n=55)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.01818181818181818,
+    "expected": 0.013654260197715002,
+    "sd": 0.0644316142863777,
+    "weight": 0.9063481590621413
+   },
+   "p_holm": 1.0
+  },
+  "20250422_151123_456148": {
+   "parent": "20250422_074351_059880",
+   "accepted": true,
+   "generation": 57,
+   "runs": 58,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 55,
+    "diff": -0.01818181818181818,
+    "ci": [
+     -0.08170716292689809,
+     0.04534352656326173
+    ],
+    "p": 0.5684726860583134,
+    "se": 0.03168563058860226,
+    "sd_task_diff": 0.23498692563386414,
+    "up": 1,
+    "down": 2,
+    "same": 52
+   },
+   "seen": {
+    "n_tasks": 57,
+    "diff": -0.017543859649122806,
+    "ci": [
+     -0.135046668884553,
+     0.09995894958630738
+    ],
+    "p": 0.7659759672314126,
+    "se": 0.058656790669014795,
+    "sd_task_diff": 0.4428490580553959,
+    "up": 5,
+    "down": 6,
+    "same": 46
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.08871976564808633,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0175 [-0.135,+0.1] (n=57)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.017543859649122806,
+    "expected": -0.01887125848055376,
+    "sd": 0.0685176472851884,
+    "weight": 0.8948086084840708
+   },
+   "p_holm": 1.0
+  },
+  "20250424_004151_945763": {
+   "parent": "20250422_151123_456148",
+   "accepted": true,
+   "generation": 60,
+   "runs": 60,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 58,
+    "diff": -0.017241379310344827,
+    "ci": [
+     -0.0949815537964592,
+     0.06049879517576955
+    ],
+    "p": 0.6586460867871508,
+    "se": 0.038822500120871975,
+    "sd_task_diff": 0.2956633523229351,
+    "up": 2,
+    "down": 3,
+    "same": 53
+   },
+   "seen": {
+    "n_tasks": 58,
+    "diff": -0.034482758620689655,
+    "ci": [
+     -0.11929837273333593,
+     0.050332855491956624
+    ],
+    "p": 0.41896464500919695,
+    "se": 0.04235588884262382,
+    "sd_task_diff": 0.3225728391226157,
+    "up": 2,
+    "down": 4,
+    "same": 52
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.10870300033844152,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.0345 [-0.119,+0.0503] (n=58)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.034482758620689655,
+    "expected": -0.034233248345470944,
+    "sd": 0.05008898132575454,
+    "weight": 0.9422430821874193
+   },
+   "p_holm": 1.0
+  },
+  "20250424_074551_499104": {
+   "parent": "20250424_004151_945763",
+   "accepted": true,
+   "generation": 62,
+   "runs": 59,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 59,
+    "diff": 0.05084745762711865,
+    "ci": [
+     -0.024491034110539822,
+     0.12618594936477712
+    ],
+    "p": 0.18194547242731907,
+    "se": 0.03763717411355217,
+    "sd_task_diff": 0.2890966199041017,
+    "up": 4,
+    "down": 1,
+    "same": 54
+   },
+   "seen": {
+    "n_tasks": 57,
+    "diff": 0.017543859649122806,
+    "ci": [
+     -0.08872256371038575,
+     0.12381028300863137
+    ],
+    "p": 0.7420910598025225,
+    "se": 0.053047645334628385,
+    "sd_task_diff": 0.4005009394574071,
+    "up": 5,
+    "down": 4,
+    "same": 48
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.10538408751794606,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0.0175 [-0.0887,+0.124] (n=57)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.017543859649122806,
+    "expected": 0.013359253643971312,
+    "sd": 0.062249072854485075,
+    "weight": 0.9122845686905465
+   },
+   "p_holm": 1.0
+  },
+  "20250424_161003_558263": {
+   "parent": "20250424_074551_499104",
+   "accepted": false,
+   "generation": 65,
+   "runs": 10,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "seen": {
+    "n_tasks": 10,
+    "diff": -0.3,
+    "ci": [
+     -0.6455262073996703,
+     0.04552620739967028
+    ],
+    "p": 0.08112618884582126,
+    "se": 0.15275252316519464,
+    "sd_task_diff": 0.4830458915396479,
+    "up": 0,
+    "down": 3,
+    "same": 7
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.42770706486254495,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop -0.3 [-0.646,+0.0455] (n=10)"
+   ],
+   "expected_new_tasks": {
+    "observed": -0.3,
+    "expected": -0.18030237115128958,
+    "sd": 0.16198605852815903,
+    "weight": 0.5564080582818318
+   }
+  },
+  "20250424_162447_017070": {
+   "parent": "20250424_074551_499104",
+   "accepted": true,
+   "generation": 66,
+   "runs": 57,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 56,
+    "diff": 0.0,
+    "ci": [
+     -0.10213478851871577,
+     0.10213478851871577
+    ],
+    "p": 1.0,
+    "se": 0.05096471914376255,
+    "sd_task_diff": 0.3813850356982369,
+    "up": 4,
+    "down": 4,
+    "same": 48
+   },
+   "seen": {
+    "n_tasks": 55,
+    "diff": 0.03636363636363636,
+    "ci": [
+     -0.07954650298008756,
+     0.15227377570736028
+    ],
+    "p": 0.5320199169125489,
+    "se": 0.05781449705557246,
+    "sd_task_diff": 0.42876378559573314,
+    "up": 6,
+    "down": 4,
+    "same": 45
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.14270121360253513,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0.0364 [-0.0795,+0.152] (n=55)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.03636363636363636,
+    "expected": 0.029544716130431647,
+    "sd": 0.06758142528710538,
+    "weight": 0.8975005194944216
+   },
+   "p_holm": 1.0
+  },
+  "20250425_064702_901775": {
+   "parent": "20250424_162447_017070",
+   "accepted": true,
+   "generation": 67,
+   "runs": 58,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 57,
+    "diff": 0.0,
+    "ci": [
+     -0.08685086259667646,
+     0.08685086259667646
+    ],
+    "p": 1.0,
+    "se": 0.043355498476206,
+    "sd_task_diff": 0.32732683535398854,
+    "up": 3,
+    "down": 3,
+    "same": 51
+   },
+   "seen": {
+    "n_tasks": 56,
+    "diff": 0.03571428571428571,
+    "ci": [
+     -0.06596352159265349,
+     0.1373920930212249
+    ],
+    "p": 0.48445574275489844,
+    "se": 0.05073668793666898,
+    "sd_task_diff": 0.3796786063973636,
+    "up": 5,
+    "down": 3,
+    "same": 48
+   },
+   "rerun": null,
+   "heldout": null,
+   "heldout_honest": null,
+   "truth_selection": null,
+   "truth_heldout": null,
+   "truth_heldout_honest": null,
+   "decomposition": {
+    "luck (seen - re-run)": null,
+    "fitting selection tasks (re-run - held-out)": null,
+    "survives on held-out": null
+   },
+   "min_detectable_heldout": 0.12139539573337678,
+   "verdict": "NOT SHOWN",
+   "why": [
+    "seen by loop +0.0357 [-0.066,+0.137] (n=56)"
+   ],
+   "expected_new_tasks": {
+    "observed": 0.03571428571428571,
+    "expected": 0.030388532503599675,
+    "sd": 0.05964362877365043,
+    "weight": 0.9191561520296201
+   },
+   "p_holm": 1.0
+  }
+ },
+ "noise": {
+  "n_tasks": 58,
+  "root_mean": 0.20689655172413793,
+  "run_sd_within_task": null,
+  "run_sd_of_mean": null,
+  "task_se_of_mean": 0.05365424863555166
+ },
+ "best_overall": {
+  "k": 9,
+  "n_tasks": 60,
+  "best": "20250419_072917_573516",
+  "observed_best_minus_mean": 0.03518518518518518,
+  "chance_best_minus_mean": 0.04138518518518518,
+  "p_value": 0.8595
+ },
+ "grader_access": {
+  "runs": 0,
+  "versions": {},
+  "mean_score_gain_when_accessed": null
+ },
+ "has_truth": false,
+ "has_heldout": false,
+ "score_range": [
+  0.0,
+  1.0
+ ],
+ "truth_range": null,
+ "shrinkage_prior": {
+  "mu": -0.030162751863605414,
+  "tau": 0.12097016591260255,
+  "n_candidates": 36
+ },
+ "per_generation_selection": {}
+}

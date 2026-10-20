@@ -1,0 +1,444 @@
+{
+ "n_records": 10353,
+ "root": null,
+ "versions": {
+  "round_10": {
+   "parent": "round_3",
+   "accepted": false,
+   "generation": 10,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.02352941176470588,
+    "ci": [
+     -0.0534893533536218,
+     0.006430529824210048
+    ],
+    "p": 0.12256930967105162,
+    "se": 0.01512921519694089,
+    "sd_task_diff": 0.16504025310379983,
+    "up": 16,
+    "down": 22,
+    "same": 81
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_11": {
+   "parent": "round_9",
+   "accepted": false,
+   "generation": 11,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.021848739495798325,
+    "ci": [
+     -0.052036540358869954,
+     0.008339061367273304
+    ],
+    "p": 0.1544330029249541,
+    "se": 0.015244279907033507,
+    "sd_task_diff": 0.1662954609007542,
+    "up": 11,
+    "down": 21,
+    "same": 87
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_12": {
+   "parent": "round_9",
+   "accepted": false,
+   "generation": 12,
+   "runs": 119,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.5378151260504201,
+    "ci": [
+     -0.6196490064666546,
+     -0.45598124563418574
+    ],
+    "p": 1.478959970034576e-24,
+    "se": 0.04132459282483986,
+    "sd_task_diff": 0.4507980863807187,
+    "up": 0,
+    "down": 79,
+    "same": 40
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_13": {
+   "parent": "round_3",
+   "accepted": false,
+   "generation": 13,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.008403361344537815,
+    "ci": [
+     -0.03769152681230931,
+     0.020884804123233687
+    ],
+    "p": 0.5709928316468484,
+    "se": 0.014789980707087265,
+    "sd_task_diff": 0.16133964171463133,
+    "up": 17,
+    "down": 13,
+    "same": 89
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_14": {
+   "parent": "round_3",
+   "accepted": true,
+   "generation": 14,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": 0.0033613445378151254,
+    "ci": [
+     -0.026526445890757352,
+     0.0332491349663876
+    ],
+    "p": 0.8241446421954918,
+    "se": 0.015092780198284254,
+    "sd_task_diff": 0.16464279419255745,
+    "up": 15,
+    "down": 13,
+    "same": 91
+   },
+   "verdict": "NOT SHOWN",
+   "why": [],
+   "p_holm": 1.0
+  },
+  "round_15": {
+   "parent": "round_14",
+   "accepted": false,
+   "generation": 15,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.0067226890756302525,
+    "ci": [
+     -0.028858826593127572,
+     0.015413448441867067
+    ],
+    "p": 0.5487250961610107,
+    "se": 0.011178339154546127,
+    "sd_task_diff": 0.12194128375670407,
+    "up": 11,
+    "down": 15,
+    "same": 93
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_16": {
+   "parent": "round_9",
+   "accepted": false,
+   "generation": 16,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.01680672268907563,
+    "ci": [
+     -0.04800983014330058,
+     0.014396384765149324
+    ],
+    "p": 0.28832088506890563,
+    "se": 0.015756990916927935,
+    "sd_task_diff": 0.17188847770569665,
+    "up": 14,
+    "down": 21,
+    "same": 84
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_17": {
+   "parent": "round_5",
+   "accepted": false,
+   "generation": 17,
+   "runs": 119,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.5512605042016807,
+    "ci": [
+     -0.6340738787762717,
+     -0.4684471296270897
+    ],
+    "p": 6.015666164853536e-25,
+    "se": 0.04181921921995296,
+    "sd_task_diff": 0.4561938233293076,
+    "up": 0,
+    "down": 78,
+    "same": 41
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_18": {
+   "parent": "round_14",
+   "accepted": false,
+   "generation": 18,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.013445378151260505,
+    "ci": [
+     -0.04048716102959596,
+     0.013596404727074948
+    ],
+    "p": 0.32683243692869846,
+    "se": 0.013655599135969221,
+    "sd_task_diff": 0.14896499972715643,
+    "up": 10,
+    "down": 21,
+    "same": 88
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_19": {
+   "parent": "round_5",
+   "accepted": false,
+   "generation": 19,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.006722689075630251,
+    "ci": [
+     -0.038051894466249736,
+     0.024606516314989238
+    ],
+    "p": 0.6716609761868721,
+    "se": 0.015820668037590576,
+    "sd_task_diff": 0.17258311308329433,
+    "up": 14,
+    "down": 18,
+    "same": 87
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_2": {
+   "parent": "round_1",
+   "accepted": true,
+   "generation": 2,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": null,
+   "verdict": "NO DATA",
+   "why": []
+  },
+  "round_20": {
+   "parent": "round_9",
+   "accepted": false,
+   "generation": 20,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.016806722689075633,
+    "ci": [
+     -0.06078755464656436,
+     0.027174109268413092
+    ],
+    "p": 0.45071656816438554,
+    "se": 0.02220950495682921,
+    "sd_task_diff": 0.24227709578262477,
+    "up": 12,
+    "down": 24,
+    "same": 83
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_3": {
+   "parent": "round_2",
+   "accepted": true,
+   "generation": 3,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": 0.00336134453781513,
+    "ci": [
+     -0.054331733558412566,
+     0.06105442263404282
+    ],
+    "p": 0.9083435452205132,
+    "se": 0.029133935101351073,
+    "sd_task_diff": 0.3178137107871191,
+    "up": 23,
+    "down": 24,
+    "same": 72
+   },
+   "verdict": "NOT SHOWN",
+   "why": [],
+   "p_holm": 1.0
+  },
+  "round_4": {
+   "parent": "round_3",
+   "accepted": false,
+   "generation": 4,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.5277310924369748,
+    "ci": [
+     -0.6103776702475807,
+     -0.44508451462636894
+    ],
+    "p": 1.0836569785890589e-23,
+    "se": 0.04173498994570702,
+    "sd_task_diff": 0.4552749904249339,
+    "up": 0,
+    "down": 74,
+    "same": 45
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_5": {
+   "parent": "round_3",
+   "accepted": true,
+   "generation": 5,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": 0.023529411764705882,
+    "ci": [
+     -0.019836694267994247,
+     0.06689551779740602
+    ],
+    "p": 0.28481431787864187,
+    "se": 0.02189907975871381,
+    "sd_task_diff": 0.23889075666325507,
+    "up": 23,
+    "down": 13,
+    "same": 83
+   },
+   "verdict": "NOT SHOWN",
+   "why": [],
+   "p_holm": 1.0
+  },
+  "round_6": {
+   "parent": "round_2",
+   "accepted": false,
+   "generation": 6,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": -0.05210084033613444,
+    "ci": [
+     -0.10731636857680424,
+     0.003114687904535361
+    ],
+    "p": 0.06416336863329627,
+    "se": 0.027882818345510915,
+    "sd_task_diff": 0.30416563827586185,
+    "up": 18,
+    "down": 33,
+    "same": 68
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_7": {
+   "parent": "round_2",
+   "accepted": false,
+   "generation": 7,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": 0.0,
+    "ci": [
+     -0.05305671335423354,
+     0.05305671335423354
+    ],
+    "p": 1.0,
+    "se": 0.026792656841346393,
+    "sd_task_diff": 0.2922733802684728,
+    "up": 25,
+    "down": 20,
+    "same": 74
+   },
+   "verdict": "NOT SHOWN",
+   "why": []
+  },
+  "round_8": {
+   "parent": "round_1",
+   "accepted": false,
+   "generation": 8,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": null,
+   "verdict": "NO DATA",
+   "why": []
+  },
+  "round_9": {
+   "parent": "round_3",
+   "accepted": true,
+   "generation": 9,
+   "runs": 595,
+   "grader_access_runs": 0,
+   "step_vs_parent": {
+    "n_tasks": 119,
+    "diff": 0.010084033613445375,
+    "ci": [
+     -0.016590767833233773,
+     0.03675883506012453
+    ],
+    "p": 0.45557978361208673,
+    "se": 0.013470280314958444,
+    "sd_task_diff": 0.14694341005932615,
+    "up": 17,
+    "down": 10,
+    "same": 92
+   },
+   "verdict": "NOT SHOWN",
+   "why": [],
+   "p_holm": 1.0
+  }
+ },
+ "noise": null,
+ "best_overall": {
+  "k": 19,
+  "n_tasks": 119,
+  "best": "round_5",
+  "observed_best_minus_mean": 0.11596638655462188,
+  "chance_best_minus_mean": 0.04803781512605042,
+  "p_value": 0.0
+ },
+ "grader_access": {
+  "runs": 0,
+  "versions": {},
+  "mean_score_gain_when_accessed": null
+ },
+ "has_truth": false,
+ "has_heldout": false,
+ "score_range": [
+  0.0,
+  1.0
+ ],
+ "truth_range": null,
+ "shrinkage_prior": null,
+ "per_generation_selection": {}
+}

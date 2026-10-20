@@ -1,0 +1,22 @@
+{
+ "5": {
+  "percentile_bootstrap": 0.8505,
+  "t_interval": 0.9555
+ },
+ "10": {
+  "percentile_bootstrap": 0.8975,
+  "t_interval": 0.9515
+ },
+ "15": {
+  "percentile_bootstrap": 0.928,
+  "t_interval": 0.961
+ },
+ "30": {
+  "percentile_bootstrap": 0.9325,
+  "t_interval": 0.9495
+ },
+ "60": {
+  "percentile_bootstrap": 0.9305,
+  "t_interval": 0.942
+ }
+}

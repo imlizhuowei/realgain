@@ -1,0 +1,49 @@
+== answer-key loop, 10 sel / 30 held-out tasks
+   truly NO REAL CHANGE  (n=129): NOT SHOWN 91%, WORSE 3%, LUCK 2%, REAL 2%, FITS SELECTION 1%
+   truly WORSE           (n= 21): NOT SHOWN 86%, LUCK 14%
+   truly REAL            (n= 52): NOT SHOWN 75%, LUCK 13%, REAL 8%, FITS SELECTION 4%
+   says REAL or better when true change <= 0     0.0%
+   says WORSE when true change >= 0              1.7%
+   flags grader access when there was none       0.0%
+   flags grader access when there was            –
+   finds REAL when true gain > 5 pts             7.7%
+   finds REAL when true gain > 10 pts            7.7%
+   95% interval for held-out truth covers the truth: 0.9504950495049505
+   bias of loop's own number +0.235  vs  'expected on new tasks' +0.094
+== answer-key loop, 10 sel / 100 held-out tasks
+   truly NO REAL CHANGE  (n=152): NOT SHOWN 76%, LUCK 9%, REAL 7%, WORSE 4%, FITS SELECTION 4%
+   truly REAL            (n= 48): REAL 44%, NOT SHOWN 44%, LUCK 8%, FITS SELECTION 4%
+   truly WORSE           (n=  3): NOT SHOWN 100%
+   says REAL or better when true change <= 0     1.5%
+   says WORSE when true change >= 0              1.5%
+   flags grader access when there was none       0.0%
+   flags grader access when there was            –
+   finds REAL when true gain > 5 pts             43.8%
+   finds REAL when true gain > 10 pts            71.4%
+   95% interval for held-out truth covers the truth: 0.9211822660098522
+   bias of loop's own number +0.246  vs  'expected on new tasks' +0.118
+== judge loop, half the versions flatter the judge
+   truly SCORE ONLY      (n=290): SCORE ONLY 62%, NOT SHOWN 26%, FITS SELECTION 4%, LUCK 3%, REAL 2%, WORSE 1%
+   truly WORSE           (n= 83): SCORE ONLY 48%, NOT SHOWN 33%, WORSE 13%, LUCK 4%, FITS SELECTION 2%
+   truly REAL            (n=141): SCORE ONLY 63%, NOT SHOWN 22%, REAL 9%, LUCK 4%, FITS SELECTION 2%
+   truly NO REAL CHANGE  (n= 34): NOT SHOWN 82%, REAL 12%, LUCK 6%
+   says REAL or better when true change <= 0     1.3%
+   says WORSE when true change >= 0              0.3%
+   flags grader access when there was none       0.0%
+   flags grader access when there was            –
+   finds REAL when true gain > 5 pts             8.5%
+   finds REAL when true gain > 10 pts            13.0%
+   95% interval for held-out truth covers the truth: 0.9525547445255474
+== answer-key loop, grader reachable
+   truly NO REAL CHANGE  (n= 79): NOT SHOWN 67%, LUCK 18%, REAL 9%, FITS SELECTION 5%, WORSE 1%
+   truly GRADER ACCESS   (n=106): GRADER ACCESS 100%
+   truly REAL            (n= 27): NOT SHOWN 74%, REAL 19%, LUCK 7%
+   truly WORSE           (n= 11): NOT SHOWN 100%
+   says REAL or better when true change <= 0     2.2%
+   says WORSE when true change >= 0              0.0%
+   flags grader access when there was none       0.0%
+   flags grader access when there was            100.0%
+   finds REAL when true gain > 5 pts             18.5%
+   finds REAL when true gain > 10 pts            40.0%
+   95% interval for held-out truth covers the truth: 0.9487179487179487
+   bias of loop's own number +0.223  vs  'expected on new tasks' +0.102

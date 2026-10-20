@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "realgain"
+version = "0.3.0"
+description = "Check whether a self-improving AI system's claimed improvements are real: noise, luck, overfitting, a fooled judge, grader access."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+optional-dependencies = { plot = ["matplotlib"] }
+license = { text = "MIT" }
+
+[project.scripts]
+realgain = "realgain.__main__:main"
+
+[tool.setuptools]
+packages = ["realgain"]
+[tool.setuptools.package-data]
+realgain = ["data/*.jsonl"]
